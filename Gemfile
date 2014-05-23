@@ -9,4 +9,4 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem "middleman-deploy", "~> 0.2.3"
 
-gem "bootstrap-sass", require: false
+gem "bootstrap-sass", "~> 3.1.1", require: false

@@ -1,1 +1,22 @@
-Welcome!
+<div class="container-fluid">
+<% data.events.each do |event, info| %>
+  <div class="row event">
+    <div class="col-md-12">
+      <div>
+        <img src="<%= lorem.image('200x200') %>" class="img-circle">
+      </div>
+      <div class="info">
+        <%= event %>
+        <br>
+        <%= info.date %>
+        <br>
+        <%= info.location %>
+        <br>
+        <%= info.short %>
+        <br>
+        <%= info.description %>
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>
