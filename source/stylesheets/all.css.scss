@@ -1,14 +1,19 @@
 @import "bootstrap";
 
 .event {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 40px 0 40px 0;
   text-align: center;
-  border-bottom: 1px solid #666;
 }
 
-.info {
+.event-info {
   @include center-block;
   max-width: 500px;
-  margin-top: 15px;
+  margin-top: 20px;
+}
+
+.event-divider {
+  @include center-block;
+  width: 10px;
+  height: 200px;
+  background-color: #ccc;
 }
