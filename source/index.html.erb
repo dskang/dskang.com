@@ -1,25 +1,32 @@
 <div class="container-fluid">
 <% data.events.each do |event, info| %>
-  <div class="row">
+  <div class="row section">
     <div class="col-md-12">
-      <div class="event-divider"></div>
-    </div>
-  </div>
-  <div class="row event">
-    <div class="col-md-12">
-      <div>
-        <img src="<%= lorem.image('200x200') %>" class="img-circle">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="event-divider"></div>
+        </div>
       </div>
-      <div class="event-info">
-        <%= event %>
-        <br>
-        <%= info.date %>
-        <br>
-        <%= info.location %>
-        <br>
-        <%= info.short %>
-        <br>
-        <%= info.description %>
+      <div class="event">
+        <div>
+          <img src="<%= lorem.image('200x200') %>" class="img-circle">
+        </div>
+        <div class="event-info">
+          <%= event %>
+          <br>
+          <%= info.date %>
+          <br>
+          <%= info.location %>
+          <br>
+          <%= info.short %>
+          <br>
+          <%= info.description %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="event-divider"></div>
+        </div>
       </div>
     </div>
   </div>

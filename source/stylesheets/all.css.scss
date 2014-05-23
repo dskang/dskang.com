@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+.section:nth-child(2n+1) {
+  background-color: #eee;
+}
+
 .event {
   padding: 40px 0 40px 0;
   text-align: center;
@@ -14,6 +18,6 @@
 .event-divider {
   @include center-block;
   width: 10px;
-  height: 200px;
+  height: 100px;
   background-color: #ccc;
 }
