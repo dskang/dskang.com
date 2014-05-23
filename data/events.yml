@@ -1,0 +1,96 @@
+born:
+  age: 0
+  location: Seoul, South Korea
+  short: Emerged
+  description: >-
+    When I look at my baby photos, I have a hard time telling whether I'm
+    looking at myself or a large, round potato.
+
+usa:
+  age: 6
+  location: Fullerton, CA
+  short: Moved to America
+  description:
+
+mom-death:
+  age: 7
+  location: Fullerton, CA
+  short: Mom passes away
+  description:
+
+comics:
+  age: 11
+  location: Fullerton, CA
+  short: Entrepreneur-in-Training
+  description: >-
+    I drew tons comics under the label "Imagination Comix" and sold copies to 
+    my 5th grade classmates. Life was good.
+
+youtube:
+  age: 16
+  location: Fullerton, CA
+  link: https://www.youtube.com/watch?v=tUg5YmBXBWM
+  short: Recorded my first YouTube cover
+  description:
+
+princeton:
+  age: 18
+  location: Princeton, NJ
+  short: Got into Princeton
+  description: >-
+    One day, I found myself staring at an orange tiger with "CONGRATULATIONS!" 
+    beneath it. I had a hard time believing it. So did my grandparents.
+
+facebook:
+  age: 18
+  location: Palo Alto, CA
+  short: Worked at Facebook
+  description:
+
+twilio:
+  age: 19
+  location: San Francisco, CA
+  short: Worked at Twilio
+  description:
+
+princeton-timeoff:
+  age: 20
+  location: San Francisco, CA
+  short: Decided to take time off from Princeton
+  description:
+
+grandma-death:
+  age: 20
+  location: Fullerton, CA
+  short: Grandma passes away
+  description:
+
+fundraising:
+  age: 20
+  location: San Francisco, CA
+  short: Worked as a fundraiser for a week
+  description:
+
+eurotrip:
+  age: 20
+  location: 13 countries in Europe
+  short: Embarked on a solo backpacking adventure for 2 months
+  description: 
+
+crowdtap:
+  age: 20
+  location: New York, CA
+  short: Worked at Crowdtap
+  description:
+
+princeton-return:
+  age: 21
+  location: Princeton, NJ
+  short: 
+  description:
+
+google:
+  age: 21
+  location: Seattle, WA
+  short: Currently working at Google
+  description:
