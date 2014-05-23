@@ -36,7 +36,7 @@ youtube:
 princeton:
   age: 18
   location: Princeton, NJ
-  short: Got into Princeton
+  short: Accepted into Princeton
   description: >-
     One day, I found myself staring at an orange tiger with "CONGRATULATIONS!" 
     beneath it. I had a hard time believing it. So did my grandparents.
@@ -86,7 +86,7 @@ crowdtap:
 princeton-return:
   age: 21
   location: Princeton, NJ
-  short: 
+  short: Returned to Princeton
   description:
 
 google:
