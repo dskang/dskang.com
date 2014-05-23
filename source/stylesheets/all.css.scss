@@ -1,7 +1,12 @@
 @import "bootstrap";
 
-.section:nth-child(2n+1) {
-  background-color: #eee;
+.section {
+  &:nth-child(2n+1) {
+    background-color: #eee;
+  }
+  &:last-child .divider-row:last-child{
+    display: none;
+  }
 }
 
 .event {
