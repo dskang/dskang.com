@@ -1,7 +1,13 @@
 @import "bootstrap";
 
+.logo {
+  @include center-block;
+  max-width: 400px;
+  padding: 40px;
+}
+
 .section {
-  &:nth-child(2n+1) {
+  &:nth-child(2n) {
     background-color: #eee;
   }
   &:last-child .divider-row:last-child{

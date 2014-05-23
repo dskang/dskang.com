@@ -1,5 +1,17 @@
 <div class="container-fluid">
-<% data.events.each do |event, info| %>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="logo">
+        <%= image_tag "dk_logo.png", class: "img-responsive" %>
+      </div>
+    </div>
+    <div class="row divider-row">
+      <div class="col-md-12">
+        <div class="event-divider"></div>
+      </div>
+    </div>
+  </div>
+  <% data.events.each do |event, info| %>
   <div class="row section">
     <div class="col-md-12">
       <div class="row divider-row">
@@ -30,5 +42,5 @@
       </div>
     </div>
   </div>
-<% end %>
+  <% end %>
 </div>
