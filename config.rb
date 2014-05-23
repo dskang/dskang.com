@@ -64,8 +64,11 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
 
-  # Use relative URLs
-  # activate :relative_assets
+  # Use relative URLs for assets
+  activate :relative_assets
+
+  # Use relative URLs for link helpers
+  set :relative_links, true
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
