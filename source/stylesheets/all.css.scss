@@ -6,8 +6,13 @@
   padding: 40px;
 }
 
+.intro {
+  @include center-block;
+  max-width: 500px;
+}
+
 .section {
-  &:nth-child(2n) {
+  &:nth-child(2n+1) {
     background-color: #eee;
   }
   &:last-child .divider-row:last-child{
@@ -22,7 +27,7 @@
 
 .event-info {
   @include center-block;
-  max-width: 500px;
+  max-width: 400px;
   margin-top: 20px;
 }
 
