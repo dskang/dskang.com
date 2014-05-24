@@ -48,12 +48,14 @@ princeton:
 facebook:
   age: 18
   location: Palo Alto, CA
+  image: facebook.png
   short: Worked at Facebook
   description:
 
 twilio:
   age: 19
   location: San Francisco, CA
+  image: twilio.png
   short: Worked at Twilio
   description:
 
