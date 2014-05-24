@@ -21,14 +21,25 @@
 }
 
 .event {
-  padding: 40px 0 40px 0;
-  text-align: center;
+  padding: 40px 0;
+}
+
+.event-image {
+  @include center-block;
+  width: 200px;
+  height: 200px;
 }
 
 .event-info {
   @include center-block;
-  max-width: 400px;
   margin-top: 20px;
+  text-align: center;
+}
+
+.event-description {
+  @include center-block;
+  max-width: 400px;
+  margin-top: 10px;
 }
 
 .event-divider {

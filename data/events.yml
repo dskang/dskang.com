@@ -3,8 +3,8 @@ born:
   location: Seoul, South Korea
   short: Emerged
   description: >-
-    When I look at my baby photos, I have a hard time telling whether I'm
-    looking at myself or a large, round potato.
+    When I look at my baby photos, I have a hard time telling myself apart from
+    a large potato.
 
 usa:
   age: 6
@@ -68,13 +68,13 @@ grandma-death:
 fundraising:
   age: 20
   location: San Francisco, CA
-  short: Worked as a fundraiser for a week
+  short: Worked as a fundraiser
   description:
 
 eurotrip:
   age: 20
   location: 13 countries in Europe
-  short: Embarked on a solo backpacking adventure for 2 months
+  short: Embarked on a solo backpacking adventure
   description: 
 
 crowdtap:
