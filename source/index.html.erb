@@ -3,7 +3,7 @@
     <div class="col-md-12">
       <h1 class="text-center">Timeline</h1>
       <p class="lead intro">
-        Hi. This is a living timeline of events, both wonderful and terrible, that have shaped me into who I am today.
+        Hi. This is a living timeline of events, both wonderful and terrible, that have profoundly influenced who I am.
       </p>
     </div>
   </div>
@@ -37,7 +37,7 @@
           <br>
           <%= info.location %>
           <div class="event-description">
-            <%= info.description %>
+            <%= simple_format(info.description) %>
           </div>
         </div>
       </div>
