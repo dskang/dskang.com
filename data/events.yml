@@ -57,12 +57,6 @@ twilio:
   short: Worked at Twilio
   description:
 
-princeton-timeoff:
-  age: 20
-  location: San Francisco, CA
-  short: Decided to take time off from Princeton
-  description:
-
 grandma-death:
   age: 20
   location: Fullerton, CA
@@ -85,12 +79,6 @@ crowdtap:
   age: 20
   location: New York, CA
   short: Worked at Crowdtap
-  description:
-
-princeton-return:
-  age: 21
-  location: Princeton, NJ
-  short: Returned to Princeton
   description:
 
 google:
