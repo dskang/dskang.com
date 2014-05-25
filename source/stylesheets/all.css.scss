@@ -1,5 +1,30 @@
 @import "bootstrap";
 
+.masthead {
+  padding: 30px;
+  text-align: center;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  & > a {
+    padding-left: 0;
+    padding-right: 0;
+    color: #333; // FIXME
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #333; // FIXME
+  }
+  & + li {
+    margin-left: 20px;
+  }
+}
+
 .logo {
   @include center-block;
   max-width: 400px;

@@ -15,6 +15,14 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <div class="masthead">
+      <h3 class="masthead-brand">Dan Kang</h3>
+      <ul class="nav masthead-nav">
+        <li><%= link_to "Timeline", "/" %></li>
+        <li><%= link_to "Projects", "/projects.html" %></li>
+        <li><%= link_to "Writing", "/writing.html" %></li>
+      </ul>
+    </div>
     <%= yield %>
   </body>
 </html>
