@@ -1,5 +1,19 @@
 @import "bootstrap";
 
+@media (min-width: $screen-sm-min) {
+  .masthead {
+    @include center-block;
+    @include clearfix;
+    width: 700px;
+  }
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
 .masthead {
   padding: 30px;
   text-align: center;
@@ -15,10 +29,18 @@
   & > a {
     padding-left: 0;
     padding-right: 0;
-    color: #333; // FIXME
     font-size: 16px;
     font-weight: bold;
-    border-bottom: 2px solid #333; // FIXME
+    border-bottom: 2px solid transparent;
+    color: rgba($text-color, .50);
+    &:hover {
+      background-color: transparent;
+      border-bottom-color: rgba($text-color, .25);
+    }
+  }
+  &.active > a {
+    color: $text-color;
+    border-bottom-color: $text-color;
   }
   & + li {
     margin-left: 20px;
@@ -34,6 +56,7 @@
 .intro {
   @include center-block;
   max-width: 500px;
+  margin-top: 20px;
 }
 
 .section {
