@@ -62,6 +62,8 @@ twilio:
 grandma-death:
   age: 20
   location: Fullerton, CA
+  image: grandma.jpg
+  background: grandma-bg.jpg
   short: Grandma passes away
   description:
 
