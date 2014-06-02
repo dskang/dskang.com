@@ -41,11 +41,14 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def nav_link_to(name, url)
+    current = current_page.url == url || current_page.url == url + '/'
+    class_name = current ? ' class="active"' : ''
+
+    "<li#{class_name}>" + link_to(name, url) + "</li>"
+  end
+end
 
 set :css_dir, 'stylesheets'
 
