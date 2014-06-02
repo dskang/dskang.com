@@ -33,7 +33,7 @@
         </div>
         <div class="event-info">
           <h4><%= info.short %></h4>
-          <%= info.age %> years old
+          <%= pluralize(info.age, "year") %> old
           <br>
           <%= info.location %>
           <div class="event-description">
