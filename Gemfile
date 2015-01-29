@@ -2,11 +2,11 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.3.2"
+gem "middleman", "~> 3.3"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload", "~> 3.4"
 
-gem "middleman-deploy", "~> 0.2.3"
+gem "middleman-deploy", "~> 1.0"
 
-gem "bootstrap-sass", "~> 3.1.1", require: false
+gem "bootstrap-sass", "~> 3.3", require: false
