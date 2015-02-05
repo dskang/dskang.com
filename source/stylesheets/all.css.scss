@@ -74,8 +74,8 @@
 
 .event-image {
   @include center-block;
-  width: 350px;
-  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 .event-thumbnail {
