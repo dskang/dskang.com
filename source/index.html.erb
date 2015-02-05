@@ -19,13 +19,13 @@
     <div class="col-md-12">
       <div class="event-divider"></div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 visible-lg-block">
           <div class="event-image">
-            <% image = info.image || lorem.image('300x300') %>
-            <%= image_tag image, class: "" %>
+            <% image = info.image || lorem.image('350x350') %>
+            <%= image_tag image, class: "img-rounded" %>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="event">
             <div class="event-thumbnail">
               <% thumbnail = info.thumbnail || lorem.image('200x200') %>
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 visible-lg-block">
         </div>
       </div>
       <div class="event-divider"></div>

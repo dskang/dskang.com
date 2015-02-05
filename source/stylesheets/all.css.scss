@@ -72,6 +72,12 @@
   padding: 40px 0;
 }
 
+.event-image {
+  @include center-block;
+  width: 350px;
+  height: 350px;
+}
+
 .event-thumbnail {
   @include center-block;
   width: 200px;
