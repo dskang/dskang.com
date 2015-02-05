@@ -84,6 +84,11 @@
   height: 200px;
 }
 
+.event-description {
+  max-width: 350px;
+  margin-top: 50px;
+}
+
 .event-info {
   @include center-block;
   margin-top: 20px;
