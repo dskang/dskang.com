@@ -95,6 +95,13 @@
   text-align: center;
 }
 
+.event-expand {
+  margin-top: 20px;
+  button {
+    @include center-block;
+  }
+}
+
 .event-divider {
   @include center-block;
   width: 10px;
