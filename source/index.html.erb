@@ -11,21 +11,13 @@
       <div class="logo">
         <%= image_tag "dk_logo.png", class: "img-responsive" %>
       </div>
-      <div class="row divider-row">
-        <div class="col-md-12">
-          <div class="event-divider"></div>
-        </div>
-      </div>
+      <div class="event-divider"></div>
     </div>
   </div>
   <% data.events.each do |event, info| %>
   <div class="row section">
     <div class="col-md-12">
-      <div class="row divider-row">
-        <div class="col-md-12">
-          <div class="event-divider"></div>
-        </div>
-      </div>
+      <div class="event-divider"></div>
       <div class="event">
         <div class="event-thumbnail">
           <% thumbnail = info.thumbnail || lorem.image('200x200') %>
@@ -38,11 +30,7 @@
           <%= info.location %>
         </div>
       </div>
-      <div class="row divider-row">
-        <div class="col-md-12">
-          <div class="event-divider"></div>
-        </div>
-      </div>
+      <div class="event-divider"></div>
     </div>
   </div>
   <% end %>

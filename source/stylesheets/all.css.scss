@@ -63,7 +63,7 @@
   &:nth-child(2n+1) {
     background-color: #eee;
   }
-  &:last-child .divider-row:last-child{
+  &:last-child .event-divider:last-child{
     visibility: hidden;
   }
 }
