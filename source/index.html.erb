@@ -27,9 +27,9 @@
         </div>
       </div>
       <div class="event">
-        <div class="event-image">
-          <% image = info.image || lorem.image('200x200') %>
-          <%= image_tag image, class: "img-circle img-responsive" %>
+        <div class="event-thumbnail">
+          <% thumbnail = info.thumbnail || lorem.image('200x200') %>
+          <%= image_tag thumbnail, class: "img-circle img-responsive" %>
         </div>
         <div class="event-info">
           <h4><%= info.short %></h4>
