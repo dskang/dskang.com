@@ -84,12 +84,6 @@
   text-align: center;
 }
 
-.event-description {
-  @include center-block;
-  max-width: 500px;
-  margin-top: 10px;
-}
-
 .event-divider {
   @include center-block;
   width: 10px;
