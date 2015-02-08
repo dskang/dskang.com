@@ -79,16 +79,26 @@
     }
   }
 
-  // horizontally and vertically center contents
+  // vertically center contents
   .event-row > .col-md-4 {
     position: relative;
   }
   .event-image, .event-description {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 75%;
+    transform: translateY(-50%);
+  }
+
+  .event-image {
+    max-width: 450px;
+    right: 0;
+    margin-left: 30px;
+  }
+
+  .event-description {
+    max-width: 400px;
+    left: 0;
+    margin-right: 30px;
   }
 }
 
