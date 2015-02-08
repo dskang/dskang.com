@@ -36,6 +36,7 @@ youtube:
   age: 16
   location: Fullerton, CA
   link: https://www.youtube.com/watch?v=tUg5YmBXBWM
+  thumbnail: thumbnails/youtube.jpg
   short: Recorded my first YouTube cover
   description:
 
