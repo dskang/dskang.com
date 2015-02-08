@@ -61,6 +61,7 @@ twilio:
   age: 19
   location: San Francisco, CA
   thumbnail: thumbnails/twilio.png
+  image: snapshots/twilio.jpg
   short: Interned at Twilio
   description:
 
@@ -75,6 +76,7 @@ grandma-death:
 fundraising:
   age: 20
   location: San Francisco, CA
+  thumbnail: thumbnails/redcross.png
   short: Raised money for the Red Cross
   description:
 
