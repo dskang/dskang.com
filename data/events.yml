@@ -96,6 +96,8 @@ crowdtap:
 google:
   age: 21
   location: Seattle, WA
+  thumbnail: thumbnails/google.jpg
+  image: snapshots/google.jpg
   short: Interned at Google
   description:
 
