@@ -68,25 +68,38 @@
   }
 }
 
-.event {
-  padding: 40px 0;
+@media (min-width: $screen-md-min) {
+  // make all columns have the height of highest column
+  .event-row {
+    display: table;
+    & > .col-md-4 {
+      float: none;
+      display: table-cell;
+      vertical-align: top;
+    }
+  }
+
+  // horizontally and vertically center contents
+  .event-row > .col-md-4 {
+    position: relative;
+  }
+  .event-image, .event-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+  }
 }
 
-.event-image {
-  @include center-block;
-  max-width: 350px;
-  max-height: 350px;
+.event {
+  padding: 40px 0;
 }
 
 .event-thumbnail {
   @include center-block;
   width: 200px;
-  height: 200px;
-}
-
-.event-description {
-  max-width: 350px;
-  margin-top: 50px;
+  height: auto;
 }
 
 .event-info {

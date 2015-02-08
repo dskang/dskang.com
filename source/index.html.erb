@@ -18,8 +18,8 @@
   <div class="row section">
     <div class="col-md-12">
       <div class="event-divider"></div>
-      <div class="row">
-        <div class="col-md-4 visible-md-block visible-lg-block">
+      <div class="row event-row">
+        <div class="col-md-4 hidden-xs hidden-sm">
           <div class="event-image">
             <% image = info.image || lorem.image('350x350') %>
             <%= image_tag image, class: "img-rounded img-responsive" %>
@@ -42,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 visible-md-block visible-lg-block">
+        <div class="col-md-4 hidden-xs hidden-sm">
           <div class="event-description">
             <p class="lead"><%= lorem.sentences 4 %></p>
           </div>
