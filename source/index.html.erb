@@ -17,14 +17,14 @@
   <div class="row event-row">
     <div class="col-md-4 hidden-xs hidden-sm">
       <div class="event-image">
-        <% image = info.image || lorem.image('400x400') %>
+        <% image = info.image || lorem.image('400x400', text: "Coming Soon") %>
         <%= image_tag image, class: "img-rounded img-responsive" %>
       </div>
     </div>
     <div class="col-md-4">
       <div class="event-main">
         <div class="event-thumbnail">
-          <% thumbnail = info.thumbnail || lorem.image('200x200') %>
+          <% thumbnail = info.thumbnail || lorem.image('200x200', text: "Coming Soon") %>
           <%= image_tag thumbnail, class: "img-circle img-responsive" %>
         </div>
         <div class="event-info">
