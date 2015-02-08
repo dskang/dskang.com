@@ -1,6 +1,8 @@
 born:
   age: 0
   location: Seoul, South Korea
+  image: snapshots/born.jpg
+  thumbnail: thumbnails/born.png
   short: Emerged
   description: >-
     When I look at my baby photos, I have a hard time telling myself apart from
@@ -9,6 +11,7 @@ born:
 usa:
   age: 6
   location: Fullerton, CA
+  thumbnail: thumbnails/usa.png
   short: Moved to America
   description: >-
     My mom was diagnosed with breast cancer and my parents sent my siblings and
@@ -18,13 +21,13 @@ usa:
 mom-death:
   age: 7
   location: Fullerton, CA
-  short: Mom passes away
+  short: Lost my mom
   description:
 
 comics:
   age: 11
   location: Fullerton, CA
-  short: Entrepreneur-in-Training
+  short: Published comic books for classmates
   description: >-
     I drew comics under the label "Imagination Comix" and sold copies to
     my 5th grade classmates. Life was good.
@@ -39,8 +42,8 @@ youtube:
 princeton:
   age: 18
   location: Princeton, NJ
-  thumbnail: princeton.png
-  short: Enrolled at Princeton
+  thumbnail: thumbnails/princeton.png
+  short: Started attending Princeton
   description: >-
     When I found myself staring at an orange tiger with CONGRATULATIONS!
     beneath it, I had a hard time believing it. So did my grandparents.
@@ -48,23 +51,24 @@ princeton:
 facebook:
   age: 18
   location: Palo Alto, CA
-  thumbnail: facebook.png
-  short: Worked at Facebook
+  thumbnail: thumbnails/facebook.png
+  image: snapshots/facebook.jpg
+  short: Interned at Facebook
   description:
 
 twilio:
   age: 19
   location: San Francisco, CA
-  thumbnail: twilio.png
-  short: Worked at Twilio
+  thumbnail: thumbnails/twilio.png
+  short: Interned at Twilio
   description:
 
 grandma-death:
   age: 20
   location: Fullerton, CA
   thumbnail: grandma.jpg
-  background: grandma-bg.jpg
-  short: Grandma passes away
+  image: snapshots/grandma.jpg
+  short: Lost my grandma
   description:
 
 fundraising:
@@ -76,17 +80,23 @@ fundraising:
 eurotrip:
   age: 20
   location: 13 countries in Europe
-  short: Embarked on a solo backpacking adventure
+  short: Backpacked around Europe
   description:
 
 crowdtap:
   age: 20
   location: New York, CA
-  short: Worked at Crowdtap
+  short: Interned at Crowdtap
   description:
 
 google:
   age: 21
   location: Seattle, WA
-  short: Currently working at Google
+  short: Interned at Google
+  description:
+
+current:
+  age: 22
+  location: Princeton, NJ
+  short: Currently finishing college
   description:
