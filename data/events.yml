@@ -27,7 +27,7 @@ mom-death:
 comics:
   age: 11
   location: Fullerton, CA
-  short: Published comic books for classmates
+  short: Published comic books at school
   description: >-
     I drew comics under the label "Imagination Comix" and sold copies to
     my 5th grade classmates. Life was good.
@@ -37,7 +37,7 @@ youtube:
   location: Fullerton, CA
   link: https://www.youtube.com/watch?v=tUg5YmBXBWM
   thumbnail: thumbnails/youtube.jpg
-  short: Recorded my first YouTube cover
+  short: Made a popular YouTube video
   description:
 
 princeton:
