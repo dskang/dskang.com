@@ -44,6 +44,7 @@ princeton:
   age: 18
   location: Princeton, NJ
   thumbnail: thumbnails/princeton.png
+  image: snapshots/princeton.jpg
   short: Started attending Princeton
   description: >-
     When I found myself staring at an orange tiger with CONGRATULATIONS!
