@@ -51,6 +51,7 @@
   @include center-block;
   max-width: 400px;
   padding: 40px;
+  margin-bottom: 100px;
 }
 
 .intro {
@@ -69,20 +70,26 @@
 }
 
 @media (min-width: $screen-md-min) {
-  // make all columns have the height of highest column
+  // make all columns have the same height
   .event-row {
-    display: table;
+    height: 600px;
     & > .col-md-4 {
-      float: none;
-      display: table-cell;
-      vertical-align: top;
+      height: 100%;
     }
   }
 
-  // vertically center contents
+  // center contents
   .event-row > .col-md-4 {
     position: relative;
   }
+
+  .event {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .event-image, .event-description {
     position: absolute;
     top: 50%;
@@ -90,7 +97,7 @@
   }
 
   .event-image {
-    max-width: 450px;
+    max-width: 400px;
     right: 0;
     margin-left: 30px;
   }
@@ -103,7 +110,7 @@
 }
 
 .event {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 
 .event-thumbnail {
@@ -123,11 +130,4 @@
   button {
     @include center-block;
   }
-}
-
-.event-divider {
-  @include center-block;
-  width: 10px;
-  height: 100px;
-  background-color: #ccc;
 }
