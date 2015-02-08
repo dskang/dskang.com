@@ -14,37 +14,33 @@
     </div>
   </div>
   <% data.events.each do |event, info| %>
-  <div class="row section">
-    <div class="col-md-12">
-      <div class="row event-row">
-        <div class="col-md-4 hidden-xs hidden-sm">
-          <div class="event-image">
-            <% image = info.image || lorem.image('400x400') %>
-            <%= image_tag image, class: "img-rounded img-responsive" %>
-          </div>
+  <div class="row event-row">
+    <div class="col-md-4 hidden-xs hidden-sm">
+      <div class="event-image">
+        <% image = info.image || lorem.image('400x400') %>
+        <%= image_tag image, class: "img-rounded img-responsive" %>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="event-main">
+        <div class="event-thumbnail">
+          <% thumbnail = info.thumbnail || lorem.image('200x200') %>
+          <%= image_tag thumbnail, class: "img-circle img-responsive" %>
         </div>
-        <div class="col-md-4">
-          <div class="event">
-            <div class="event-thumbnail">
-              <% thumbnail = info.thumbnail || lorem.image('200x200') %>
-              <%= image_tag thumbnail, class: "img-circle img-responsive" %>
-            </div>
-            <div class="event-info">
-              <h4><%= info.short %></h4>
-              <%= pluralize(info.age, "year") %> old
-              <br>
-              <%= info.location %>
-            </div>
-            <div class="event-expand hidden-md hidden-lg">
-              <button type="button" class="btn btn-default btn-lg">Show Details</button>
-            </div>
-          </div>
+        <div class="event-info">
+          <h4><%= info.short %></h4>
+          <%= pluralize(info.age, "year") %> old
+          <br>
+          <%= info.location %>
         </div>
-        <div class="col-md-4 hidden-xs hidden-sm">
-          <div class="event-description">
-            <p class="lead"><%= lorem.sentences 4 %></p>
-          </div>
+        <div class="event-expand hidden-md hidden-lg">
+          <button type="button" class="btn btn-default btn-lg">Show Details</button>
         </div>
+      </div>
+    </div>
+    <div class="col-md-4 hidden-xs hidden-sm">
+      <div class="event-description">
+        <p class="lead"><%= lorem.sentences 4 %></p>
       </div>
     </div>
   </div>

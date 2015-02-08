@@ -60,12 +60,9 @@
   margin-top: 20px;
 }
 
-.section {
+.event-row {
   &:nth-child(2n+1) {
     background-color: #eee;
-  }
-  &:last-child .event-divider:last-child{
-    visibility: hidden;
   }
 }
 
@@ -83,7 +80,7 @@
     position: relative;
   }
 
-  .event {
+  .event-main {
     position: absolute;
     top: 50%;
     left: 50%;
