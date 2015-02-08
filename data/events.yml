@@ -89,6 +89,7 @@ eurotrip:
 crowdtap:
   age: 20
   location: New York, CA
+  thumbnail: thumbnails/crowdtap.png
   short: Interned at Crowdtap
   description:
 
