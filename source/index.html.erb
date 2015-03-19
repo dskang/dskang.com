@@ -16,7 +16,9 @@
   <% data.events.each do |event, info| %>
   <div class="row event-row">
     <div class="col-md-4 hidden-xs hidden-sm">
-      <%= partial "event_image", locals: { event: event, info: info } %>
+      <div class="fade-in">
+        <%= partial "event_image", locals: { event: event, info: info } %>
+      </div>
     </div>
     <div class="col-md-4">
       <div class="event-main">
@@ -40,7 +42,9 @@
       </div>
     </div>
     <div class="col-md-4 hidden-xs hidden-sm">
-      <%= partial "event_description", locals: { info: info } %>
+      <div class="fade-in">
+        <%= partial "event_description", locals: { info: info } %>
+      </div>
     </div>
   </div>
   <% end %>
