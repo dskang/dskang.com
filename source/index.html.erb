@@ -16,18 +16,7 @@
   <% data.events.each do |event, info| %>
   <div class="row event-row">
     <div class="col-md-4 hidden-xs hidden-sm">
-      <% if event == 'youtube' %>
-      <div class="event-video">
-        <div class="video-wrapper">
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/tUg5YmBXBWM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <% else %>
-      <div class="event-image">
-        <% image = info.image || lorem.image('400x400', text: "Coming Soon") %>
-        <%= image_tag image, class: "img-rounded img-responsive" %>
-      </div>
-      <% end %>
+      <%= partial "event_image", locals: { event: event, info: info } %>
     </div>
     <div class="col-md-4">
       <div class="event-main">
@@ -42,14 +31,16 @@
           <%= info.location %>
         </div>
         <div class="event-expand hidden-md hidden-lg">
-          <button type="button" class="btn btn-default btn-lg">Show Details</button>
+          <button type="button" class="btn btn-default btn-lg toggle-details">Show Details</button>
+          <div class="event-details">
+            <%= partial "event_description", locals: { info: info } %>
+            <%= partial "event_image", locals: { event: event, info: info } %>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-4 hidden-xs hidden-sm">
-      <div class="event-description">
-        <p class="lead"><%= info.description || lorem.sentences(4) %></p>
-      </div>
+      <%= partial "event_description", locals: { info: info } %>
     </div>
   </div>
   <% end %>
