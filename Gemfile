@@ -2,11 +2,13 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~> 3.3"
+gem "middleman", "~> 4.1"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.4"
 
-gem "middleman-deploy", "~> 1.0"
+# middleman-deploy broke with middleman 4.1 so need to depend on alpha
+# See https://github.com/middleman-contrib/middleman-deploy/issues/122
+gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 
-gem "bootstrap-sass", "~> 3.3", require: false
+gem "bootstrap-sass", "~> 3.3"

@@ -42,6 +42,7 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  # Add 'active' class if link is to current page
   def nav_link_to(name, url)
     current = current_page.url == url || current_page.url == url + '/'
     class_name = current ? ' class="active"' : ''
@@ -57,6 +58,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 # Pretty URLs (Directory Indexes)
+# e.g. /about instead of /about.html
 activate :directory_indexes
 
 # Build-specific configuration
@@ -82,5 +84,5 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.method = :git
+  deploy.deploy_method = :git
 end
