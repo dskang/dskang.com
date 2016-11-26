@@ -3,3 +3,11 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
 @import "header";
+
+.intro {
+  text-align: center;
+  margin: 50px 0;
+  .title {
+    text-transform: uppercase;
+  }
+}

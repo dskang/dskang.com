@@ -1,4 +1,4 @@
-@media (min-width: map-get($grid-breakpoints, "md")) {
+@include media-breakpoint-up(md) {
   .header {
     @include clearfix;
     width: 700px;
@@ -23,7 +23,7 @@
   margin-bottom: 10px;
 }
 
-.header-nav > a {
+.header-nav a {
   display: inline-block;
   text-decoration: none;
   padding: 0.5em 0;
