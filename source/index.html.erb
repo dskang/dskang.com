@@ -1,6 +1,15 @@
 <div class="container">
   <div class="intro">
     <h2 class="display-4 title">Story of my life</h2>
-    <small>because being here obviously means you want to know absolutely everything about me</small>
+    <small class="text-muted">because being here obviously means you want to know absolutely everything about me</small>
   </div>
+  <% data.events.each do |event, info| %>
+  <div class="row">
+    <div class="col-sm-6">
+    </div>
+    <div class="col-sm-6">
+      <%= info.description %>
+    </div>
+  </div>
+  <% end %>
 </div>

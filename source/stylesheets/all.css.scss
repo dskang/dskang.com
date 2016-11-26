@@ -1,5 +1,7 @@
-$enable-flex: true;
 $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$container-max-widths: (
+  md: 700px
+);
 
 @import "bootstrap";
 @import "header";
