@@ -16,13 +16,13 @@
   </head>
 
   <body>
-    <div class="masthead">
-      <h3 class="masthead-brand">Dan Kang</h3>
-      <ul class="nav masthead-nav">
-       <%= nav_link_to "Timeline", "/" %>
-       <%= nav_link_to "Projects", "/projects" %>
-       <%= nav_link_to "Writing", "/writing" %>
-      </ul>
+    <div class="header">
+      <h3 class="header-brand">Dan Kang</h3>
+      <nav class="header-nav">
+        <%= nav_link_to "Story", "/" %>
+        <%= nav_link_to "Projects", "/projects" %>
+        <%= nav_link_to "Writing", "/writing" %>
+      </nav>
     </div>
     <%= yield %>
   </body>

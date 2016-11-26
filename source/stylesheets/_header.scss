@@ -1,0 +1,44 @@
+@media (min-width: map-get($grid-breakpoints, "md")) {
+  .header {
+    @include clearfix;
+    width: 700px;
+    margin: 0 auto;
+  }
+  .header-brand {
+    float: left;
+  }
+  .header-nav {
+    float: right;
+  }
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+.header-brand {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.header-nav > a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 0;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  color: rgba($body-color, .50);
+  &:hover {
+    background-color: transparent;
+    border-bottom-color: rgba($body-color, .25);
+  }
+  &.active {
+    color: $body-color;
+    border-bottom-color: $body-color;
+  }
+  & + a {
+    margin-left: 20px;
+  }
+}

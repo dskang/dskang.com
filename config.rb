@@ -45,9 +45,9 @@ helpers do
   # Add 'active' class if link is to current page
   def nav_link_to(name, url)
     current = current_page.url == url || current_page.url == url + '/'
-    class_name = current ? ' class="active"' : ''
+    class_name = current ? 'active' : ''
 
-    "<li#{class_name}>" + link_to(name, url) + "</li>"
+    link_to(name, url, class: class_name)
   end
 end
 

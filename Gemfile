@@ -11,4 +11,4 @@ gem "middleman-livereload", "~> 3.4"
 # See https://github.com/middleman-contrib/middleman-deploy/issues/122
 gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 
-gem "bootstrap-sass", "~> 3.3"
+gem "bootstrap", "~> 4.0.0.alpha5"
