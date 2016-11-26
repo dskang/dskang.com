@@ -6,9 +6,16 @@
   <% data.events.each do |event, info| %>
   <div class="row">
     <div class="col-sm-6">
+      <div class="event-image">
+        <%= image_tag info.image %>
+      </div>
     </div>
     <div class="col-sm-6">
-      <%= info.description %>
+      <div class="event-description">
+        <div>
+          <%= info.description %>
+        </div>
+      </div>
     </div>
   </div>
   <% end %>
