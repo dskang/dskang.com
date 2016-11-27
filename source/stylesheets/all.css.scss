@@ -1,10 +1,13 @@
 $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$container-max-widths: (
-  md: 700px
-);
 
 @import "bootstrap";
 @import "header";
+
+.main {
+  max-width: 700px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .intro {
   text-align: center;
@@ -14,13 +17,29 @@ $container-max-widths: (
   }
 }
 
+.event {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .event-image img {
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
 .event-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 400px;
+  padding: 20px 0;
+}
+
+@media (min-width: 544px) {
+  .event {
+    flex-flow: row nowrap;
+  }
+
+  .event-description {
+    padding: 20px 0 20px 20px;
+  }
 }
