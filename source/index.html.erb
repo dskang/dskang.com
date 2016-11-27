@@ -5,13 +5,17 @@
   </div>
   <% data.events.each do |event, info| %>
   <div class="event">
-    <div class="event-image">
-      <% if info.image %>
+    <% if info.image %>
+      <div class="event-image">
         <%= image_tag info.image %>
-      <% else %>
-        <div class="no-image"></div>
-      <% end %>
-    </div>
+      </div>
+    <% elsif info.video %>
+      <div class="event-video">
+        <iframe width="420" height="315" src="<%= info.video %>" frameborder="0" allowfullscreen></iframe>
+      </div>
+    <% else %>
+      <div class="no-image"></div>
+    <% end %>
     <div class="event-description">
       <p class="event-time">
         <% if info.age %>

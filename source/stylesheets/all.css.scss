@@ -30,6 +30,10 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: auto;
 }
 
+.event-video iframe {
+  max-width: 200px;
+}
+
 .event-description {
   max-width: 400px;
   padding: 15px;
