@@ -3,3 +3,9 @@ born:
   image: story/born.jpg
   description: >-
     I was born in Seoul, Korea. One of the great unsolved problems in computer vision is being able to tell the difference between me as a baby and a large potato.
+
+america:
+  age: 6
+  date: 1998
+  description: >-
+    california~

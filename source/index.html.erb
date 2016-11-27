@@ -6,7 +6,11 @@
   <% data.events.each do |event, info| %>
   <div class="event">
     <div class="event-image">
-      <%= image_tag info.image %>
+      <% if info.image %>
+        <%= image_tag info.image %>
+      <% else %>
+        <div class="no-image"></div>
+      <% end %>
     </div>
     <div class="event-description">
       <p class="event-time">
