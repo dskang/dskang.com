@@ -38,4 +38,22 @@ youtube:
   age: 15
   date: 2008
   description: >-
-    A song cover that I post on YouTube gets popular (100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn that it magically connects you to people who enjoy posting racist comments making fun of Asians.
+    A song cover that I post on YouTube gets popular (now at 100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn that it magically connects you to people who enjoy posting racist comments making fun of Asians.
+
+princeton:
+  age: 17
+  date: 2010
+  description: >-
+    I find myself staring at an orange tiger with CONGRATULATIONS! written beneath it and have a hard time believing that I got accepted to Princeton. My grandparents don't believe me when I tell them which is totally not cool.
+
+facebook:
+  age: 18
+  date: Summer 2011
+  description: >-
+    I land a software engineering internship at Facebook after my freshman year and fall in love with the tech world. The experience is exhilarating: I make real money for the first time; I meet amazingly talented and passionate people; a big, scary competitor (Google+) launches and the energy at Facebook is palpable. I also learn that the "Facebook Fifteen" is not a joke when I gain a ton of weight from the free food.
+
+twilio:
+  age: 19
+  date: Summer 2012
+  description: >-
+    I decide to see what working at a startup is like and join Twilio as a software engineering intern.
