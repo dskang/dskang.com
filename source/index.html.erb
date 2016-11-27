@@ -18,8 +18,11 @@
           <%= pluralize(info.age, "year") %> old
           &middot;
         <% end %>
-        <%= info.date %></p>
-      <%= info.description %>
+        <%= info.date %>
+      </p>
+      <p>
+        <%= info.description.gsub("\n", "</p><p>") %>
+      </p>
     </div>
   </div>
   <% end %>

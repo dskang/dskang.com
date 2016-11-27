@@ -2,10 +2,40 @@ born:
   date: July 22, 1992
   image: story/born.jpg
   description: >-
-    I was born in Seoul, Korea. One of the great unsolved problems in computer vision is being able to tell the difference between me as a baby and a large potato.
+    I gain consciousness in Seoul, Korea. One of the great unsolved problems in computer vision is being able to tell the difference between me as a baby and a large potato.
 
 america:
   age: 6
   date: 1998
   description: >-
-    california~
+    My parents send my siblings and me to live with my grandparents in the promised land of California. I successfully make my first friend in America with lots of pointing and three words: "You. Me. Friend?"
+
+mom-death:
+  age: 7
+  date: 1999
+  description: >-
+    Here's where I tell you that my story gets fairly dark but I pinky promise that it will get better.
+
+    My brother and sister stay with my grandparents while I move in with my uncle and aunt. Unfortunately, they don't actually want me and turn out to be physically and emotionally abusive for the two years I live with them.
+
+    My mom and dad tell us they will visit America for Christmas in 1999. Some time before the trip, my dad starts saying that my mom is too tired to talk when I ask for her on the phone. When the trip happens, he arrives alone, gathers our family members, and breaks the news that my mom died from breast cancer. I cry and cry but no one else does because everyone had known for a while.
+
+    I share these personal events because they've made me who I am today, and I've long since discovered that openness and vulnerability creates strength. They are also a source of immense gratitude: When I look back on this period of my life and reflect on losing my mom in the midst of being beaten, kicked out of the house, and abandoned by my uncle and aunt, I can't help but be thankful that I came out of it intact.
+
+childhood:
+  age: 11
+  date: 2003
+  description: >-
+    I reach the peak of my creative life as a 5th grader:
+
+    I start a publication called "Imagination Comix" under which I create numerous comic books ranging from a choose-your-own-adventure stick figure spy series to one about a sheep named Famula.
+
+    I develop my own trading cards called "Marble Monsters", hold contests for crowdsourcing monster ideas from classmates, and hire a few friends to print out cards from their home printers by paying them a dollar each. One of them writes me a letter saying that his mom wouldn't let him use the printer and asks if we can still be friends. I ignore him for the rest of the year. Just kidding.
+
+    I sell my own currency called "Funny Money" which are strips of paper with gold glitter that kids could exchange for snacks from Korean supermarkets during break. Someone told me this is a felony.
+
+youtube:
+  age: 15
+  date: 2008
+  description: >-
+    A song cover that I post on YouTube gets popular (100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn that it magically connects you to people who enjoy posting racist comments making fun of Asians.
