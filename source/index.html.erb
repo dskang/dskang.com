@@ -9,6 +9,12 @@
       <%= image_tag info.image %>
     </div>
     <div class="event-description">
+      <p class="event-time">
+        <% if info.age %>
+          <%= pluralize(info.age, "year") %> old
+          &middot;
+        <% end %>
+        <%= info.date %></p>
       <%= info.description %>
     </div>
   </div>
