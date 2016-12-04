@@ -5,20 +5,16 @@
   </div>
   <% data.events.each do |event, info| %>
   <div class="event">
-    <% if info.image %>
-      <div class="event-image">
+    <div class="event-media">
+      <% if info.image %>
         <%= image_tag info.image %>
-      </div>
-    <% elsif info.video %>
-      <div class="event-video">
+      <% elsif info.video %>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="<%= info.video %>" allowfullscreen></iframe>
         </div>
-      </div>
-    <% else %>
-      <div class="no-image"></div>
-    <% end %>
-    <div class="event-description">
+      <% end %>
+    </div>
+    <div class="event-text">
       <p class="event-time">
         <% if info.age %>
           <%= pluralize(info.age, "year") %> old
@@ -26,7 +22,7 @@
         <% end %>
         <%= info.date %>
       </p>
-      <p>
+      <p class="event-description">
         <%= info.description.gsub("\n", "</p><p>") %>
       </p>
     </div>
