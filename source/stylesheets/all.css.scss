@@ -4,7 +4,7 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 @import "header";
 
 .main {
-  max-width: 700px;
+  max-width: 800px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -26,14 +26,14 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .event-image, .no-image {
-  width: 250px;
+  width: 400px;
   img {
     width: 100%;
   }
 }
 
-.event-video iframe {
-  max-width: 200px;
+.event-video {
+  width: 100%;
 }
 
 .event-description {
@@ -58,5 +58,9 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   .event-time {
     text-align: left;
+  }
+
+  .event-video {
+    width: 400px;
   }
 }
