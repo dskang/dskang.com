@@ -15,13 +15,18 @@
       <% end %>
     </div>
     <div class="event-text">
-      <p class="event-time">
-        <% if info.age %>
-          <%= pluralize(info.age, "year") %> old
-          &middot;
-        <% end %>
-        <%= info.date %>
-      </p>
+      <div class="event-header">
+        <div class="event-title">
+          <%= info.title %>
+        </div>
+        <div class="event-time">
+          <% if info.age %>
+            <%= pluralize(info.age, "year") %> old
+            &middot;
+          <% end %>
+          <%= info.date %>
+        </div>
+      </div>
       <p>
         <%= info.description.gsub("\n", "</p><p>") %>
       </p>

@@ -1,11 +1,13 @@
 born:
   image: story/born.jpg
+  title: Hello World
   date: July 22, 1992
   description: >-
     I gain consciousness in Seoul, Korea. One of the great unsolved problems in computer vision is being able to identify whether a picture is of me as a baby or a large potato.
 
 america:
   image: story/america.jpg
+  title: America
   age: 6
   date: 1998
   description: >-
@@ -13,6 +15,7 @@ america:
 
 mom-death:
   image: story/mom-death.jpg
+  title: Tragedy
   age: 7
   date: 1999
   description: >-
@@ -26,6 +29,7 @@ mom-death:
 
 childhood:
   image: story/childhood.jpg
+  title: Child Entrepreneur
   age: 11
   date: 2003
   description: >-
@@ -38,14 +42,16 @@ childhood:
     I sell my own currency called "Funny Money" which are strips of paper with gold glitter that kids could exchange for snacks from Korean supermarkets during break. I'm told this was a felony.
 
 youtube:
+  video: https://www.youtube.com/embed/tUg5YmBXBWM?rel=0&amp;showinfo=0
+  title: YouTube
   age: 15
   date: 2008
-  video: https://www.youtube.com/embed/tUg5YmBXBWM?rel=0&amp;showinfo=0
   description: >-
-    A song cover that I post on YouTube gets popular (now at 100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn that I have a special gift for curing racism: "Dude I was going to be racist and make fun of your slanty little asian eyes till you started to sing, and your voice doesn't suck like the girl I watched before this video, so... Good job?﻿" (YouTube comment, 2008)
+    A song cover that I post on YouTube gets popular (now at 100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn about my special power for curing racism: "Dude I was going to be racist and make fun of your slanty little asian eyes till you started to sing, and your voice doesn't suck like the girl I watched before this video, so... Good job?﻿" (YouTube comment, 2008)
 
 princeton:
   image: story/princeton.jpg
+  title: Princeton
   age: 17
   date: 2010
   description: >-
@@ -53,6 +59,7 @@ princeton:
 
 facebook:
   image: story/facebook.jpg
+  title: Facebook
   age: 18
   date: Summer 2011
   description: >-
@@ -60,6 +67,7 @@ facebook:
 
 twilio:
   image: story/twilio.jpg
+  title: Twilio
   age: 19
   date: Summer 2012
   description: >-

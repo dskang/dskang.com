@@ -32,9 +32,16 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
-.event-time {
-  font-weight: bold;
+.event-header {
   text-align: center;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-time {
+  color: #818a91;
   margin-bottom: 0.5em;
 }
 
@@ -61,7 +68,7 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 10px 0 10px 20px;
   }
 
-  .event-time {
+  .event-header {
     text-align: left;
   }
 }
