@@ -49,6 +49,13 @@ helpers do
 
     link_to(name, url, class: class_name)
   end
+
+  # Create image path with full URL
+  def image_url(path)
+    images_url = "http://dskang.com"
+
+    images_url + image_path(path)
+  end
 end
 
 set :css_dir, 'stylesheets'
