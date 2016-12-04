@@ -15,8 +15,6 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 .event {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
   padding: 10px 0;
 }
 
@@ -28,7 +26,7 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .event-text {
-  padding: 15px 20px;
+  padding: 15px 20px 40px 20px;
   p:last-of-type {
     margin-bottom: 0;
   }
@@ -49,15 +47,18 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   .event {
     flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .event-media {
     width: 50%;
+    margin-top: 10px;
   }
 
   .event-text {
-    padding: 10px 0 10px 20px;
     width: 50%;
+    padding: 10px 0 10px 20px;
   }
 
   .event-time {
