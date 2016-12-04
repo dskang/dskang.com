@@ -74,6 +74,7 @@ twilio:
     I consider returning to Facebook but decide to use my internships to maximize my exposure to a variety of experiences and join Twilio in San Francsico. I learn what it's like to work at a startup, especially the part where you get really good at ping pong.
 
 year-off:
+  image: story/year-off.jpg
   title: Year Off
   age: 20
   date: 2012 &ndash; 2013
@@ -81,6 +82,7 @@ year-off:
     I take a year off from school because my grandma's health is deteriorating and it becomes clear she will soon pass away. I spend time with her in the beginning of the year, move to Silicon Valley to build the next world-changing iPhone app and quickly realize it's not going to happen, briefly work as a street fundraiser for the Red Cross and learn the fearlessness that comes from getting rejected for 8 hours a day, then fall in love with traveling when I take a leap of faith and venture on a solo backpacking trip around 13 countries in Europe.
 
 hackny:
+  image: story/hackny.jpg
   title: hackNY
   age: 20
   date: Summer 2013
@@ -88,6 +90,7 @@ hackny:
     I become a hackNY Fellow and code at a startup called Crowdtap by day while exploring New York and eating a ton of Artichoke Pizza with the other hackNY Fellows by night.
 
 google-intern:
+  image: story/google.jpg
   title: Google
   age: 21
   date: Summer 2014
@@ -95,13 +98,15 @@ google-intern:
     My previous three software engineering internships convince me that at this point, I know what it's like to work as a software engineer. I look for a role where I can focus on figuring out what should be built and why, rather than the implementation details. I intern as an Associate Product Manager at Google in Seattle and instantly fall in love with stealing credit from engineers.
 
 graduation:
+  image: story/graduation.jpg
   title: Graduation
   age: 22
   date: 2015
   description: >-
-    I graduate from Princeton and backpack around Asia over the summer when I get sick nasty abs because I literally get sick from contaminated Vietnamese coffee and my body refuses to hold anything for a week. When I get back, I join Google as a full-time Associate Product Manager in Mountain View where I specialize in looking busy while actually just eating snacks all the time.
+    I graduate from Princeton and backpack around Asia over the summer when I get sick nasty abs because I literally get sick from drinking contaminated Vietnamese coffee and my body refuses to digest anything for a week. When I get back, I join Google as a full-time Associate Product Manager in Mountain View where I specialize in looking busy while actually just eating snacks all the time.
 
 meditation:
+  image: story/meditation.jpg
   title: Meditation
   age: 23
   date: 2016
@@ -109,6 +114,7 @@ meditation:
     A psilocybin experience blows my mind in the most wonderful way and it leads to a fascination with consciousness and altered states. That experience and Sam Harris's work convince me that there is value in spirituality and that it can be approached in a rational way whereas I had previously rejected it categorically as superstition. I start meditating regularly and attend a week-long silent retreat in Spirit Rock where I cultivate a deeper appreciation for mindfulness and spiritual practice.
 
 vegetarian:
+  image: story/vegetarian.jpg
   title: Vegetarian
   age: 23
   date: 2016
@@ -116,6 +122,7 @@ vegetarian:
     In 2011, I took a course by Peter Singer at Princeton called Practial Ethics that convinced me that modern meat consumption is unethical due to the immense suffering it creates for animals. I subsequently became pescatarian but started eating meat in 2013 despite still believing that it was unethical. In 2016, I decide to live more congruently with my ethical values and become vegetarian.
 
 tokyo:
+  image: story/tokyo.jpg
   title: Tokyo
   age: 24
   date: 2016
