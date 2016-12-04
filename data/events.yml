@@ -1,15 +1,18 @@
 born:
+  image: story/born.jpg
   date: July 22, 1992
   description: >-
     I gain consciousness in Seoul, Korea. One of the great unsolved problems in computer vision is being able to identify whether a picture is of me as a baby or a large potato.
 
 america:
+  image: story/america.jpg
   age: 6
   date: 1998
   description: >-
     My parents send my siblings and me to live with my grandparents in the promised land of California. I successfully make my first friend in America and spontaneously combust into a social butterfly with lots of pointing and three words: "You. Me. Friend?"
 
 mom-death:
+  image: story/mom-death.jpg
   age: 7
   date: 1999
   description: >-
@@ -17,11 +20,12 @@ mom-death:
 
     My brother and sister stay with my grandparents while I move in with my uncle and aunt. Unfortunately, they don't actually want me and turn out to be physically and emotionally abusive for the two years I live with them.
 
-    My mom and dad tell us they will visit America for Christmas in 1999. Some time before the trip, my dad starts saying that my mom is too tired to talk when I ask for her on the phone. When the trip happens, he arrives alone, gathers our family members, and breaks the news that my mom died from breast cancer. I cry and cry but no one else does because everyone had known for a while.
+    During this period, I look forward to my mom and dad visiting us in the States for the first time. Some time before the planned trip, my dad starts saying that my mom is too tired to talk whenever I ask for her on the phone. When the trip happens, he arrives alone, gathers our family members, and breaks the news: my mom died from breast cancer. I cry and cry but no one else does because everyone had known for a while.
 
-    I share these personal events because they've made me who I am today, and I've long since discovered that openness and vulnerability creates strength. They are also a source of immense gratitude: When I look back on this period of my life and reflect on losing my mom in the midst of being beaten, kicked out of the house, and abandoned by my uncle and aunt, I can't help but be thankful that I came out of it intact.
+    I share these personal events because they've made me who I am today, and I've long since discovered that openness and vulnerability creates strength. They are also a source of immense gratitude: When I look back on this period of my life and reflect on losing my mom in the midst of being beaten, kicked out of the house, and abandoned by relatives who were entrusted with caring for me, I can't help but be thankful that I came out of it intact.
 
 childhood:
+  image: story/childhood.jpg
   age: 11
   date: 2003
   description: >-
@@ -41,12 +45,14 @@ youtube:
     A song cover that I post on YouTube gets popular (now at 100,000+ views from 130+ countries) and I discover how amazing the Internet is for reaching people from all around the world. I also learn that I have a special gift for curing racism: "Dude I was going to be racist and make fun of your slanty little asian eyes till you started to sing, and your voice doesn't suck like the girl I watched before this video, so... Good job?﻿" (YouTube comment, 2008)
 
 princeton:
+  image: story/princeton.jpg
   age: 17
   date: 2010
   description: >-
     I find myself staring at an orange tiger with CONGRATULATIONS! written beneath it and have a hard time believing that I got accepted to Princeton. My grandparents actually don't believe me when I tell them. Super not cool.
 
 facebook:
+  image: story/facebook.jpg
   age: 18
   date: Summer 2011
   description: >-
