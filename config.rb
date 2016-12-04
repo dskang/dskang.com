@@ -50,11 +50,10 @@ helpers do
     link_to(name, url, class: class_name)
   end
 
-  # Create image path with full URL
-  def image_url(path)
-    images_url = "http://dskang.com"
+  def full_url_for(path)
+    host = "http://dskang.com"
 
-    images_url + image_path(path)
+    host + url_for(path, relative: false)
   end
 end
 
