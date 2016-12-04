@@ -25,9 +25,11 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px 0;
 }
 
-.event-image img, .no-image {
-  width: 200px;
-  height: auto;
+.event-image, .no-image {
+  width: 250px;
+  img {
+    width: 100%;
+  }
 }
 
 .event-video iframe {
