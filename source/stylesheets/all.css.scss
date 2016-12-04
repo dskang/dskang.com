@@ -29,10 +29,9 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .event-text {
   padding: 15px 30px;
-}
-
-.event-description {
-  margin-bottom: 0;
+  p:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .event-time {
