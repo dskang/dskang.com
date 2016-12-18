@@ -1,0 +1,89 @@
+web-timer:
+  name: Web Timer
+  date: 2011 &ndash; 2016
+  source: https://github.com/dskang/webtimer
+  description: >-
+    A Chrome extension that automatically keeps track of how you spend your time online so you can feel bad about yourself after browsing Reddit for five hours straight. Had over 60,000 users when it was sold in 2016. Unfortunately, the buyer hates users and started abusing the extension to make money off affiliate links so please don't use it.
+
+campus-anonymous:
+  name: Campus Anonymous
+  date: 2015
+  link: http://campusanonymous.com
+  source: https://github.com/dskang/ca-web
+  description: >-
+    A platform for anonymous, one-on-one conversations built with Akshay Kumar so students can openly talk with their peers about anything, ranging from wanting to get laid to struggling with depression. Initially launched as Tigers Anonymous just for Princeton students and later expanded to all Ivy League students.
+
+nearby:
+  name: Nearby
+  date: 2016
+  source: https://github.com/dskang/nearby-app
+  description: >-
+    An iOS app that notifies you when you're within two minutes of walking distance from a friend so you can run over and give them a hug, take paparazzi pictures from afar to creep them out, etc. The killer feature was letting you spam them with notifications that say 👋 so they know you're serious about waving at them.
+
+spacewar:
+  name: Spacewar
+  date: 2015
+  source: https://github.com/dskang/spacewar
+  description: >-
+    An iOS game modeled after <a href="https://en.wikipedia.org/wiki/Spacewar!" target="_blank">Spacewar!</a>, one of the earliest computer games that was developed in 1962.
+
+creep:
+  name: Creep
+  date: 2013
+  source: https://github.com/dskang/creep-client
+  description: >-
+    A social experiment where I gave up my web privacy and redirected people to whatever website I happened to be looking at when they visited creep.dskang.com. Risky clicks dropped by 9000%.
+
+unbreak-now:
+  name: Unbreak Now
+  date: 2013
+  demo: https://unbreaknow.herokuapp.com
+  source: https://github.com/dskang/unbreaknow
+  description: >-
+    A way for users to collaboratively voice their concerns about changes to products and services by tweeting a link to an issue, where the people responsible could respond and have a public dialogue with the community. Mostly used by my friends to voice their thoughts about my personal life and the Unbreak Now website itself so it was clearly a wild success.
+
+bemo:
+  name: Bemo
+  date: 2012
+  demo: http://bemoweb.herokuapp.com/
+  source: https://github.com/dskang/bemo-app
+  description: >-
+    An iOS app built with Harvest Zhang and Raymond Zhong that used the permission model of phone calls for location sharing: Send a notification when someone requests their friend's location, and if the request is accepted, share both people's locations to each other in real-time until one of them ends the session.
+
+princeton-fml:
+  name: Princeton FML
+  date: 2012
+  demo: http://ptonfml.herokuapp.com/liked
+  source: https://github.com/dskang/ptonfml
+  description: >-
+    Princeton had an FML ("Fuck My Life") site where students anonymously posted short and funny musings about their lives. It mysteriously disappeared one day, and I built a replacement.
+
+tigertalk:
+  name: TigerTalk
+  date: 2011
+  source: https://github.com/dskang/tigertalk
+  description: >-
+    A chat room for Princeton students that was the first of many social products. It developed a small, loyal following through which I met some great friends.
+
+email-bin:
+  name: Email Bin
+  date: 2012
+  source: https://github.com/dskang/email-bin
+  description: >-
+    A simple way to collect email addresses when you slap a pretty marketing page together to determine public interest.
+
+cannon:
+  name: Cannon Club Website
+  date: 2012
+  link: http://cannonclub.com
+  source: https://github.com/dskang/cannonclub.com
+  description: >-
+    WordPress site built for Cannon Club, a Princeton eating club (think co-ed fraternity).
+
+roaring20:
+  name: Roaring 20 Website
+  date: 2011
+  demo: http://dskang.github.io/princetonroaring20.com/
+  source: https://github.com/dskang/princetonroaring20.com
+  description: >-
+    Website built for Roaring 20, the co-ed a capella group I sang with at Princeton. I promise we sounded better than the website looks.

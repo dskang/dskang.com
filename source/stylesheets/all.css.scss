@@ -14,37 +14,41 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
-.event {
+.item {
   display: flex;
   flex-flow: column wrap;
   padding: 10px 0;
 }
 
-.event-media {
+.media {
   width: 100%;
   img {
     width: 100%;
   }
 }
 
-.event-text {
+.text {
   padding: 15px 20px 40px 20px;
   p:last-of-type {
     margin-bottom: 0;
   }
 }
 
-.event-header {
+.details {
   text-align: center;
 }
 
-.event-title {
+.title {
   font-weight: bold;
 }
 
-.event-time {
+.subtitle {
   color: #818a91;
   margin-bottom: 0.5em;
+  a {
+    color: #818a91;
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 544px) {
@@ -54,23 +58,23 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
   }
 
-  .event {
+  .item {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-start;
   }
 
-  .event-media {
+  .media {
     width: 50%;
     margin-top: 10px;
   }
 
-  .event-text {
+  .text {
     width: 50%;
     padding: 10px 0 10px 20px;
   }
 
-  .event-header {
+  .details {
     text-align: left;
   }
 }

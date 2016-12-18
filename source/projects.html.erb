@@ -3,6 +3,38 @@
     <h1 class="title">Projects</h1>
     <small class="text-muted">sometimes i make stuff and put it on the interwebs</small>
   </div>
-  <div class="project">
+  <% data.projects.each do |project, info| %>
+  <div class="item">
+    <div class="media">
+      <% if info.image %>
+        <%= image_tag info.image %>
+      <% end %>
+    </div>
+    <div class="text">
+      <div class="details">
+        <div class="title">
+          <%= info.name %>
+        </div>
+        <div class="subtitle">
+          <%= info.date %>
+          <% if info.link %>
+            &middot;
+            <%= link_to info.link.sub(/^https?:\/\//, ''), info.link, target: "_blank" %>
+          <% end %>
+          <% if info.demo %>
+            &middot;
+            <%= link_to "Demo", info.demo, target: "_blank" %>
+          <% end %>
+          <% if info.source %>
+            &middot;
+            <%= link_to "Source code", info.source, target: "_blank" %>
+          <% end %>
+        </div>
+      </div>
+      <p>
+        <%= info.description.gsub("\n", "</p><p>") %>
+      </p>
+    </div>
   </div>
+  <% end %>
 </div>

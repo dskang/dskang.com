@@ -4,8 +4,8 @@
     <small class="text-muted">because being here obviously means you want to know absolutely everything about me</small>
   </div>
   <% data.events.each do |event, info| %>
-  <div class="event">
-    <div class="event-media">
+  <div class="item">
+    <div class="media">
       <% if info.image %>
         <%= image_tag info.image %>
       <% elsif info.video %>
@@ -14,12 +14,12 @@
         </div>
       <% end %>
     </div>
-    <div class="event-text">
-      <div class="event-header">
-        <div class="event-title">
+    <div class="text">
+      <div class="details">
+        <div class="title">
           <%= info.title %>
         </div>
-        <div class="event-time">
+        <div class="subtitle">
           <% if info.age %>
             <%= pluralize(info.age, "year") %> old
             &middot;
