@@ -72,6 +72,13 @@ tigertalk:
   description: >-
     A chat room for Princeton students that was the first of many social products. It developed a small, loyal following through which I met some great friends.
 
+snake:
+  name: Snake
+  date: 2011
+  source: https://github.com/dskang/snake
+  description: >-
+    Snake game built using HTML5 and Javascript.
+
 email-bin:
   name: Email Bin
   date: 2012
