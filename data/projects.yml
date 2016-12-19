@@ -1,4 +1,5 @@
 web-timer:
+  image: projects/webtimer.png
   name: Web Timer
   date: 2011 &ndash; 2016
   source: https://github.com/dskang/webtimer
@@ -6,6 +7,7 @@ web-timer:
     A Chrome extension that automatically keeps track of how you spend your time online so you can feel bad about yourself after browsing Reddit for five hours straight. Had over 60,000 users when it was sold in 2016. Unfortunately, the buyer hates users and started abusing the extension to make money off affiliate links so please don't use it.
 
 campus-anonymous:
+  image: projects/campus-anonymous.png
   name: Campus Anonymous
   date: 2015
   link: http://campusanonymous.com
@@ -21,6 +23,7 @@ nearby:
     An iOS app that notifies you when you're within two minutes of walking distance from a friend so you can run over and give them a hug, take paparazzi pictures from afar to creep them out, etc. The killer feature was letting you spam them with notifications that say 👋 so they know you're serious about waving at them.
 
 spacewar:
+  image: projects/spacewar.png
   name: Spacewar
   date: 2015
   source: https://github.com/dskang/spacewar
@@ -35,6 +38,7 @@ creep:
     A social experiment where I gave up my web privacy and redirected people to whatever website I happened to be looking at when they visited creep.dskang.com. Risky clicks dropped by 9000%.
 
 unbreak-now:
+  image: projects/unbreak-now.png
   name: Unbreak Now
   date: 2013
   demo: https://unbreaknow.herokuapp.com
@@ -43,6 +47,7 @@ unbreak-now:
     A way for users to collaboratively voice their concerns about changes to products and services by tweeting a link to an issue, where the people responsible could respond and have a public dialogue with the community. Mostly used by my friends to voice their thoughts about my personal life and the Unbreak Now website itself so it was clearly a wild success.
 
 bemo:
+  image: projects/bemo.png
   name: Bemo
   date: 2012
   demo: http://bemoweb.herokuapp.com/
@@ -51,6 +56,7 @@ bemo:
     An iOS app built with Harvest Zhang and Raymond Zhong that used the permission model of phone calls for location sharing: Send a notification when someone requests their friend's location, and if the request is accepted, share both people's locations to each other in real-time until one of them ends the session.
 
 princeton-fml:
+  image: projects/princeton-fml.png
   name: Princeton FML
   date: 2012
   demo: http://ptonfml.herokuapp.com/liked
@@ -59,6 +65,7 @@ princeton-fml:
     Princeton had an FML ("Fuck My Life") site where students anonymously posted short and funny musings about their lives. It mysteriously disappeared one day, and I built a replacement.
 
 tigertalk:
+  image: projects/tigertalk.png
   name: TigerTalk
   date: 2011
   source: https://github.com/dskang/tigertalk
@@ -73,6 +80,7 @@ email-bin:
     A simple way to collect email addresses when you slap a pretty marketing page together to determine public interest.
 
 cannon:
+  image: projects/cannon.png
   name: Cannon Club Website
   date: 2012
   link: http://cannonclub.com
