@@ -97,6 +97,7 @@ cannon:
     WordPress site built for Cannon Club, a Princeton eating club (think co-ed fraternity).
 
 roaring20:
+  image: projects/roaring20.png
   name: Roaring 20 Website
   date: 2011
   demo: http://dskang.github.io/princetonroaring20.com/
