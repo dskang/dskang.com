@@ -4,7 +4,7 @@
     <small class="text-muted">sometimes i make stuff and put it on the interwebs</small>
   </div>
   <% data.projects.each do |project, info| %>
-  <div class="item">
+  <div class="item" id="<%= project %>">
     <div class="media">
       <% if info.image %>
         <%= image_tag info.image %>

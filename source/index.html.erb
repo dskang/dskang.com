@@ -4,7 +4,7 @@
     <small class="text-muted">because being here obviously means you want to know absolutely everything about me</small>
   </div>
   <% data.events.each do |event, info| %>
-  <div class="item">
+  <div class="item" id="<%= event %>">
     <div class="media">
       <% if info.image %>
         <%= image_tag info.image %>
