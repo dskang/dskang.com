@@ -76,6 +76,7 @@ tigertalk:
 snake:
   name: Snake
   date: 2011
+  demo: /snake
   source: https://github.com/dskang/snake
   description: >-
     Snake game built using HTML5 and Javascript.
