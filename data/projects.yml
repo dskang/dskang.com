@@ -74,6 +74,7 @@ tigertalk:
     A chat room for Princeton students that was the first of many social products. It developed a small, loyal following through which I met some great friends.
 
 snake:
+  image: projects/snake.png
   name: Snake
   date: 2011
   demo: /snake
