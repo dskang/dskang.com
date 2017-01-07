@@ -67,6 +67,7 @@ set :images_dir, 'images'
 activate :blog do |blog|
   blog.sources = "blog/{title}.html"
   blog.permalink = "{title}.html"
+  blog.layout = "blog-layout"
 end
 
 # Pretty URLs (Directory Indexes)

@@ -1,0 +1,32 @@
+.content {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.entry-header {
+  margin-bottom: 1rem;
+}
+
+.entry-date {
+  color: #818a91;
+  font-size: 1rem;
+}
+
+@media (min-width: 544px) {
+  .content {
+    padding: 0 30px;
+  }
+}

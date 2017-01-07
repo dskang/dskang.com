@@ -6,13 +6,14 @@ tags:
 
 My mom died in 1999 from breast cancer. She was 38; I was 7. I went to Korea over the holidays and met with her brothers, their wives, and her father who told me many stories about what she was like. I wrote her a letter based on my time learning about her and visiting her remains for the first time.
 
-Dear Mom,
+**Dear Mom,**
 
 It feels strange to address you directly because it's been over 17 years since you left and you've been absent for most of my life. Although I don't think of you as often as I used to, your absence is still keenly felt: Every time I visit Korea, I think about what my life would be like if you hadn't gotten sick and I had grown up with you; every Mother's Day, I wish I could call you and send you flowers and envy my friends who could do so; every time someone asks me why I grew up in the States, I recount how you became too sick to care of Jeremy, Esther, and me and sent us to California to live with Dad's parents.
 
 I wish I remembered more about you from my childhood, and at this point it's hard to tell which memories are from direct experience and which are old photographs and family stories pretending to be my memories. I definitely remember thinking that you were the most beautiful person in the world when I was little. Maybe every kid believes that about their mom, but little me would have insisted that you were truly more beautiful than all the other moms. I also remember how little me was strangely obsessed with your feet and whenever I hugged and kissed them, you would tell me that you had stepped in poop earlier that day and I would tell you that I didn't care. Of course, there was that tragic morning when I woke up and hugged and kissed your feet only to realize that they were actually Jeremy's.
 
 I had lunch with big Uncle and little Uncle and their families when I visited Seoul:
+
 ![Lunch with Uncles](blog/uncle-lunch.jpg)
 
 One of the things that Jeremy told me growing up was that in some ways, you were not that great of a mother because you would do things like go to church and leave Jeremy, Esther, and me at home without making dinner so Jeremy would have to frequently order delivery for us. Over lunch, I asked your brothers and their wives whether this was true and they said that yes, this sounded exactly like something you would do. Big Uncle said that you would often leave us at home by ourselves while we were still sleeping to go to church for prayer service early in the morning. Apparently your thinking was that since you were going to church to serve God, God obviously wouldn't let anything bad happen to us while you were gone. Mom, I don't know who told you otherwise, but "let go and let God" is a terrible parenting strategy.
@@ -24,6 +25,7 @@ Perhaps as a result of your efforts to be like Christ, I heard many stories abou
 Big Uncle also told me that you told Dad to remarry and move on so that Jeremy, Esther, and I could have a new mother. This was pretty illuminating to hear because there was a time when I was fairly upset that Dad remarried within a year of your passing. It felt like he had moved on too quickly and had betrayed you, but it's nice to hear that he had your blessing in finding someone new.
 
 After Seoul, I went down to Busan and met up with Grandpa:
+
 ![Grandpa and me](blog/mom-grandpa.jpg)
 
 He told me about how you once asked him why he encouraged your brothers to study hard but not you. He told you that you would be fine since you had two younger brothers and that he would be happy regardless of whether you went to college or not. You took that as a challenge, studied hard, and got a scholarship to Pusan National University. I was really proud to hear that you were a total badass.
@@ -37,12 +39,15 @@ When I had lunch with Uncles in Seoul, I had asked about your grave because I wa
 I stayed with Dad's younger brother during my time in Busan, and he and his wife graciously offered to take me to your memorial the day after I saw Grandpa. I was pretty excited and nervous, and I didn't know how I would feel visiting your remains for the first time. I thought I would probably cry.
 
 We arrived at the cemetery, and I saw fields lined up with gravestones. For some reason, even though I knew that you had been cremated, I thought I'd be walking along these graves to find yours. Instead, we went inside a building with rooms filled with lockers. We learned that your locker was number 20918 in room 12:
+
 ![Crematorium hall](blog/memorial-hall.jpg)
 
 I was pretty taken aback by the setup and the process of finding your memorial. It felt like walking down the rows of bookshelves at a library looking for a particular book or finding a locker inside a gym. We finally found yours:
+
 ![Mom memorial](blog/mom-memorial.jpg)
 
 Dad had pinned a picture of our family:
+
 ![Memorial picture](blog/memorial-picture.jpg)
 
 Uncle told me that inside the locker, there is an urn with your ashes. The crematorium allows families to use a locker for an initial period of 15 years with three possible renewals of 5 years each. When the time is right, I'm going to take your ashes home and Jeremy, Esther, and I will look after your remains. I promise it won't be a burden.
