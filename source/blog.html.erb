@@ -1,0 +1,14 @@
+<div class="content">
+  <div class="intro">
+    <h1 class="title">Writing</h1>
+    <small class="text-muted">sometimes i write stuff and put it on the interwebs</small>
+  </div>
+  <% blog.articles.each do |article| %>
+  <div class="entry-item">
+    <span class="entry-item-date">
+      <%= article.date.strftime('%b %d %Y') %>
+    </span>
+    <%= link_to article.title, article %>
+  </div>
+  <% end %>
+</div>
