@@ -18,8 +18,16 @@
 }
 
 .header-brand {
+  display: block;
   font-size: 1.5rem;
   margin: 10px 0;
+  font-weight: 500;
+  line-height: 1.1;
+  color: $body-color;
+  &:hover {
+    color: $body-color;
+    text-decoration: none;
+  }
 }
 
 .header-nav a {
