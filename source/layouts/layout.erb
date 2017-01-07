@@ -9,9 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <!-- Open Graph  -->
-    <meta property="og:title" content="<%= current_page.data.title || "Dan Kang" %>" />
-    <meta property="og:description" content="<%= current_page.data.description || "hi, i'm dk. sometimes i make stuff. sometimes i put it on the internet." %>" />
-    <meta property="og:image" content="<%= full_url_for "images/og-image.jpg" %>" />
+    <% if current_page.data.title %>
+      <meta property="og:title" content="<%= current_page.data.title %>" />
+    <% end %>
+    <% if current_page.data.description %>
+      <meta property="og:description" content="<%= current_page.data.description %>" />
+    <% end %>
+    <% if current_page.data.image %>
+      <meta property="og:image" content="<%= full_image_url_for current_page.data.image %>" />
+    <% end %>
 
     <title><%= current_page.data.title || "Dan Kang" %></title>
 

@@ -51,10 +51,10 @@ helpers do
     link_to(name, url, class: class_name)
   end
 
-  def full_url_for(path)
+  def full_image_url_for(path)
     host = "http://dskang.com"
 
-    host + url_for(path, relative: false)
+    host + image_path(path)
   end
 end
 
