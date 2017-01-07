@@ -64,6 +64,11 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+activate :blog do |blog|
+  blog.sources = "blog/{title}.html"
+  blog.permalink = "{title}.html"
+end
+
 # Pretty URLs (Directory Indexes)
 # e.g. /about instead of /about.html
 activate :directory_indexes
