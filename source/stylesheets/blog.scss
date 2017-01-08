@@ -25,6 +25,19 @@
   font-size: 1rem;
 }
 
+blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #ddd;
+}
+
+.image-caption {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  color: #818a91;
+  font-size: 80%;
+}
+
 @media (min-width: 544px) {
   .content {
     padding: 0 30px;

@@ -1,0 +1,45 @@
+---
+title: Year Off in Review (Aug 2012 - Dec 2012)
+date: 2013-08-30
+tags:
+---
+
+I’m waiting at my gate in John Wayne airport a whole 2 hours before departure instead of the usual 2 minutes, and I still can’t believe I’m going to be back at Princeton in a week’s time after spending some time drinking maple syrup with Roaring 20, my awesome a cappella group, in Toronto.
+
+My decision to take the year off was based off two major factors: my grandma’s quickly deteriorating health and my desire to work on an iPhone app called Bemo.
+
+Home (August 2012-October 2012)
+
+After finishing up my internship at Twilio, I spent some time at home, or maybe more accurately, a nursing home in Anaheim. My sister and I spent many hours every day visiting my grandma in her nursing home and just keeping her company. The drive wasn’t too bad, but somehow that place simply sucks the life out of you – I suspect it has to do with the place reeks of death.
+
+My sister and I split our visiting hours into shifts so that my grandma would have someone next to her for most of her waking moments. In her last days, she was extremely needy and would plead with us not to leave her. But alas, every day we had to break her heart. When I took my sister’s place every day in the evening, I would try to be somewhat productive by either writing or drawing or coding. The coding part didn’t work because I couldn’t focus at all, but I came out with some crudely drawn hospital walls and angsty poems about how an old woman sharing my grandma’s room was essentially dead because I didn’t see her actually awake a single time during my time there. One week, I spent at least 5 hours a day playing an iPhone game called Subway Surfer and completely destroying any high scores that my girlfriend and her brother had previously set. She never suggested competing at any her games after that.
+
+During this time, both my sister and I fell into a sort of depression, and it’s not wonder really, what with seeing our grandma slowly dying and suffering immensely every single day. And as I mentioned before, the place itself sort of kills you. I suspect we began to hate ourselves, what with being unable to do anything to really help my grandma feel better besides adjusting her bed or pushing her onto a specific side every 5 minutes but even then doing so resentfully because the requests came all too often, much too often, and even though she had spent 15+ years waking us up, feeding us, and taking care of us we couldn’t even handle taking care of her needs for a couple hours a day. Eventually, we had to leave.
+
+San Francisco (October 2012-December 2012)
+
+My sister and I escaped, well I escaped, by taking a road trip to Seattle and dropping myself off at San Francisco on the way down. My sister went back home. The road trip was a much needed time off for both of us, and instead of spending our days sitting next to a hospital bed we spent it behind the wheel racing 18 wheelers on the freeway and gorging ourselves with Twix bars and McDonald’s ice cream cones. I’m surprised our bodies survived the trip.
+
+After being dropped off and avoiding getting into a million potential catastrophes because the hills in San Francisco are insane and driving there is nothing short of a nightmare, I spent some time crashing at Chris, Rafi, and Emily’s place in Pacific Heights. Great apartment, and I’m pretty sure I put them all at some sort of risk of getting kicked out by their landlord because they’re not allowed to have anyone there for an extended period of time. Thanks Chris, Rafi, and Emily; you guys are awesome.
+
+I searched for an apartment, and by search I mean responding to every Craigslist ad possible because the housing market in SF is a seller’s market to a comical extent. My standards were rock bottom, and I even considered living in a tiny, dark hotel room with some random middle-aged dude who smoked like a chimney because the price was cheap. Thankfully, I found a place on Lower Nob Hill (no, not the Tenderloin, I actually mean Lower Nob Hill), where I had my own room but shared a bathroom a la dorm style. It actually was pretty much a dorm for Academy of the Arts and CCA students and I was pretty much one of a handful of people in the building who didn’t go to art school.
+
+Close to a week later, I was riding the CalTrain while chatting with a stranger that I had met on the bus when I got a phone call from my sister.
+
+“Grandma’s dead.”
+
+I had expected these words, yes, I had even hoped for these words before because I thought my grandma would be better off dead then living in the constant state of suffering that she was in, but I didn’t expect to hear these words so soon, no not this soon, but really what did I expect after deserting my grandma for a week to go on a road trip, how she must have agonized over having someone next to her all day long to suddenly having no one. What did I expect.
+
+I took the news well, only because the long hours next to her bedside, if nothing else, had prepared me for this moment. After the phone call, I shared the news with the stranger I had been talking to and he took the news much worse than I did and I instantly felt bad for dropping this bomb on him. I suspect that had it not been for that experience that we went through, we wouldn’t have become friends and met up semi-regularly for lunch every now and then. Sorry about that, Adam.
+
+I flew home for the funeral, it was strange because the casket was open but the person inside was not my grandma, it was my grandma but they had caked her face with something that was supposed to make her look better and presentable and not gaunt but instead it was strange and foreign and fake. The most vivid memory I have is of my grandma’s younger sister’s granddaughter, age 3 maybe, crying because her mother was crying. There is no way that the little girl knew who my grandma was or that she was dead or what death even means, but she was crying nonetheless because her mother was. We’re all conditioned to be saddened by death.
+
+I left home as soon as I could to come back to San Francisco. I expected the numb feeling to go away and for the waterfall to begin, but really, nothing of the sort happened. The farthest I got was a single tear I shed while thinking about my grandma one time in my room. I suspect my emotional faculties are somewhat abnormal.
+
+Despite coming to San Francisco for the purpose of working on an iPhone app called Bemo, I almost immediately became distracted by the amazing city that is San Francisco. I spent my days exploring the city, meeting up with friends that I had made from previous internships, writing, reading, drawing, and sometimes even trying to cook and bake. I made a lot of chocolate chip cookies then.
+
+I want to talk about Bemo for a bit. Bemo was an iPhone app that was started in Princeton’s COS 333 class with Harvest Zhang and Raymond Zhong, and it was an easier way to share your real-time location with your friends analagous to how phone calls work. When I decided to take the year off, I planned on making a startup with Bemo and make it as successful as possible. As a result, I made the decision to work on it alone without Harvest and Raymond because after all, I’d be working on it full-time in San Francisco and they would be back in school. It was an extremely selfish and immature move, and I did a terrible job of handling the situation. Harvest and Raymond, I owe you two a public apology and I’m sorry for having been such an asshole.
+
+Whether it was due to wanting to avoid a toxic project or pure lack of motivation, I didn’t end up working on Bemo for more than a week. Instead, one of the things I did was work for a short time as a public fundraiser for the Red Cross via an organization called Public Outreach. The term we used internally to describe what we did was “canvassing”, but so far everyone I’ve talked to who does the same thing for different organizations calls it fundraising so I’ll go with that. If you’ve ever seen people from Greenpeace in green vests beckoning you over to talk to you about how you can save the world by making monthly donations, that’s essentially what I did but for the Red Cross. It’s singlehandedly the most valuable experience that I took away from living in San Francisco because facing constant rejection for 8 hours a day is truly a transformative experience. Imagine people looking down, picking up their phones to fake being on phone calls, or even crossing the street so that they can avoid having to talk to you. All day long. You learn to deal with it very quickly and end up just entertaining yourself on the job by coming up with the most creative way to get people to talk to you. I was let go because I didn’t meet the quota necessary to stay on, but I met some amazing people from my time there and I’m really glad I did it.
+
+Okay, so this post is much, much longer than I had anticipated, and I still haven’t gotten to backpacking in Europe, which was by far the most rewarding experience I had during my time off. My plane’s boarding so I’ll save that for next time. Toodles.
