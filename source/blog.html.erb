@@ -3,14 +3,19 @@
     <h1 class="title">Blog</h1>
     <small class="text-muted">sometimes i write stuff and put it on the interwebs</small>
   </div>
-  <% blog.articles.each do |article| %>
-  <div class="entry-item">
-    <div class="entry-item-date">
-      <%= article.date.strftime('%b %d %Y') %>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+  <div class="entry-section">
+    <h5><%= year %></h5>
+    <% articles.each do |article| %>
+    <div class="entry-item">
+      <div class="entry-item-date">
+        <%= article.date.strftime('%b %d') %>
+      </div>
+      <div>
+        <%= link_to article.title, article %>
+      </div>
     </div>
-    <div>
-      <%= link_to article.title, article %>
-    </div>
+    <% end %>
   </div>
   <% end %>
 </div>
