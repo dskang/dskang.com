@@ -80,8 +80,12 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
+.entry-item {
+  display: flex;
+}
+
 .entry-item-date {
   font-family: "Droid Sans Mono", monospace;
-  display: inline-block;
-  width: 120px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
