@@ -65,7 +65,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :blog do |blog|
-  blog.sources = "blog/{title}.html"
+  blog.sources = "blog/{year}/{title}.html"
   blog.permalink = "{title}.html"
   blog.layout = "blog-layout"
 end
