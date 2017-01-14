@@ -23,7 +23,7 @@ The recurring theme whenever I hear stories about you is that you were extremely
 
 Perhaps as a result of your efforts to be like Christ, I heard many stories about how kind and selfless you were. You left our apartment door open and had some sort of free daycare situation where other families in the apartment building could drop off their kids and go about their day. You hit someone's parked car and left a note so kind that he wrote back to say that there was no way he could be upset about the accident given what you wrote.
 
-Big Uncle also told me that you told Dad to remarry and move on so that Jeremy, Esther, and I could have a new mother. This was pretty illuminating to hear because there was a time when I was fairly upset that Dad remarried within a year of your passing. It felt like he had moved on too quickly and had betrayed you, but it's nice to hear that he had your blessing in finding someone new.
+Big Uncle also told me that you told Dad to remarry and move on so that Jeremy, Esther, and I could have a new mother. This was pretty illuminating to hear because there was a time when I was fairly upset that Dad remarried just a year after your passing. It felt like he had moved on too quickly and had betrayed you, but it's nice to hear that he had your blessing in finding someone new.
 
 After Seoul, I went down to Busan and met up with Grandpa:
 
