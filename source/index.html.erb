@@ -30,7 +30,11 @@ image: og-image.jpg
             <%= pluralize(info.age, "year") %> old
             &middot;
           <% end %>
+          <% if event === "now" %>
+            Updated: <%= info["last-updated"] %>
+          <% else %>
           <%= info.date %>
+          <% end %>
         </div>
       </div>
       <p>

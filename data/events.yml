@@ -127,4 +127,14 @@ tokyo:
   age: 24
   date: 2016
   description: >-
-    Working at a multinational company like Google provides the unique opportunity to live in a different country and learn about other cultures and perspectives, so I decided to move to the land of mochi and see what life is like on the other side of the world. It's been way dope!
+    Working at a multinational company like Google provides the unique opportunity to live in a different country and learn about other cultures and perspectives, so I decided to move to the land of mochi and see what life is like on the other side of the world.
+
+now:
+  image: story/now.jpg
+  title: Now
+  age: 24
+  last-updated: Jan 2016
+  description: >-
+    I currently work as a product manager at Google in Tokyo, Japan.
+
+    These days, I'm focusing on reading and <a href="/blog">writing</a> more, learning Japanese, and getting stronger using calisthenics (bodyweight exercises).
