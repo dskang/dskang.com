@@ -3,19 +3,46 @@
     <h1 class="title">Blog</h1>
     <small class="text-muted">sometimes i write stuff and put it on the interwebs</small>
   </div>
-  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-  <div class="entry-section">
-    <h5><%= year %></h5>
-    <% articles.each do |article| %>
-    <div class="entry-item">
-      <div class="entry-item-date">
-        <%= article.date.strftime('%b %d') %>
+  <div class="recommended-posts">
+    <h5>Recommended Posts</h5>
+    <ul>
+      <li>
+        <%= link_to "Dear Mom", "/dear-mom" %><br>
+        A letter written to my mom after visiting her grave for the first time, 17 years after her death
+      </li>
+      <li>
+        <%= link_to "Mother's Day Without Mother", "/mothers-day" %><br>
+        Snapshots of losing my mom and my grandma, who raised me
+      </li>
+      <li>
+        <%= link_to "Moments with Strangers", "/moments-with-strangers" %><br>
+        A day of memorable encounters with strangers around San Francisco
+      <li>
+        <%= link_to "A breakdown of how I was talked out of $100", "/100-dollars" %><br>
+        An analysis of how an effective salesman at a mall kiosk sold me $100 worth of beauty care products
+      </li>
+      <li>
+        <%= link_to "Cut", "/cut" %><br>
+        A short story about circumcision
+      </li>
+    </ul>
+  </div>
+  <div class="archive">
+    <h5>Archive</h5>
+    <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <div class="entry-section">
+      <h5><%= year %></h5>
+      <% articles.each do |article| %>
+      <div class="entry-item">
+        <div class="entry-item-date">
+          <%= article.date.strftime('%b %d') %>
+        </div>
+        <div>
+          <%= link_to article.title, article %>
+        </div>
       </div>
-      <div>
-        <%= link_to article.title, article %>
-      </div>
+      <% end %>
     </div>
     <% end %>
   </div>
-  <% end %>
 </div>
