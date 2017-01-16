@@ -30,7 +30,7 @@ He opened up a catalog conveniently sitting on the booth, and told me that there
 
 Adir wasn’t fazed by my lack of excitement, and he proceeded to show me a moisturizer and a facial cleanser. Throughout our conversation, he repeated stopped, motioned to the gel, the moisturizer, and the cleanser, and asked me, “Which one are you most impressed by?” I thought these breaks in conversation were odd, but I obliged him by pointing to the gel that had come off in clumps of dead skin cells. I didn’t actually care for any of the three products, but that one seemed to me the coolest since I hadn’t seen something like that before. Only in retrospect did I realize that the explicit act of me pointing to a certain product in response to his question made me internalize the thought that I was impressed with the product. In essence, the simple question implanted a desire for the product a la Inception.
 
-Lesson 4: Make the purchase decision seem like the most rational decision.
+**Lesson 4: Make the purchase decision seem like the most rational decision.**
 
 When I showed hesitation about making a purchase, Adir asked me how much my jeans cost. Unluckily for him, I had purchased the pair of jeans I was wearing at Uniqlo’s grand opening for a measly $15. When I told him, he quickly changed the subject of his question to my shirt. $3. Also purchased at Uniqlo’s grand opening.
 
