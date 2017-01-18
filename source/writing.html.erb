@@ -3,7 +3,7 @@ title: Dan Kang &middot; Writing
 description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the internet.
 ---
 
-<div class="content">
+<div class="content writing">
   <div class="intro">
     <h1 class="title">Writing</h1>
     <small class="text-muted">i write to share authentic snapshots of my heart and mind</small>
@@ -12,12 +12,12 @@ description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the inter
     <h5>Recommended Posts</h5>
     <% data.recommended.posts.each do |url| %>
       <% article = blog.articles.find {|a| a.url == "/#{url}/"} %>
-      <div class="post">
-        <div class="post-title">
+      <div class="post-item">
+        <div class="post-item-title">
           <%= link_to article.title, article %>
         </div>
         <% if article.data.description %>
-        <div class="post-description">
+        <div class="post-item-description">
           <%= article.data.description %>
         </div>
         <% end %>
@@ -30,17 +30,17 @@ description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the inter
     <div class="post-section">
       <h5><%= year %></h5>
       <% articles.each do |article| %>
-      <div class="post">
-        <div class="post-main">
-          <div class="post-date">
+      <div class="post-item">
+        <div class="post-item-main">
+          <div class="post-item-date">
             <%= article.date.strftime('%b %d') %>
           </div>
-          <div class="post-title">
+          <div class="post-item-title">
             <%= link_to article.title, article %>
           </div>
         </div>
         <% if article.data.description %>
-        <div class="post-description">
+        <div class="post-item-description">
           <%= article.data.description %>
         </div>
         <% end %>

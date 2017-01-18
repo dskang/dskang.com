@@ -1,18 +1,21 @@
 .content {
-  font-size: 1.125rem;
-  line-height: 1.65;
   max-width: 700px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.content img {
+.post {
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.post img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-.content p {
+.post p {
   margin-bottom: 1.5rem;
 }
 

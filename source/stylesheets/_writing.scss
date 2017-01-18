@@ -1,18 +1,22 @@
-.post {
+.writing {
+  font-size: 1.125rem;
+}
+
+.post-item {
   margin-bottom: 15px;
 }
 
-.post-main {
+.post-item-main {
   display: flex;
   flex-direction: column;
 }
 
-.post-date {
+.post-item-date {
   color: #818a91;
   font-size: 0.8em;
 }
 
-.post-description {
+.post-item-description {
   font-size: 0.8em;
 }
 
@@ -25,20 +29,20 @@
 }
 
 @media (min-width: 544px) {
-  .post {
+  .post-item {
     margin-bottom: 10px;
   }
 
-  .post-main {
+  .post-item-main {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .post-title {
+  .post-item-title {
     order: 1;
   }
 
-  .post-date {
+  .post-item-date {
     order: 2;
     font-family: "Droid Sans Mono", monospace;
     font-size: 1em;
@@ -46,11 +50,11 @@
     margin-left: 20px;
   }
 
-  .post-description {
+  .post-item-description {
     padding-right: 100px;
   }
 
-  .recommended-posts .post-description {
+  .recommended-posts .post-item-description {
     padding-right: 0;
   }
 }
