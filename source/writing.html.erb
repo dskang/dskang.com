@@ -39,11 +39,11 @@ description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the inter
       <h5><%= year %></h5>
       <% articles.each do |article| %>
       <div class="entry-item">
-        <div class="entry-item-date">
-          <%= article.date.strftime('%b %d') %>
-        </div>
         <div>
           <%= link_to article.title, article %>
+        </div>
+        <div class="entry-item-date">
+          <%= article.date.strftime('%b %d') %>
         </div>
       </div>
       <% end %>
