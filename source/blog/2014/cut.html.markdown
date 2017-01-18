@@ -2,6 +2,7 @@
 title: Cut
 date: 2014-03-31
 tags:
+description: A short story about circumcision
 ---
 
 Cut, a short story for my creative writing fiction class

@@ -3,6 +3,7 @@ title: Dear Mom
 date: 2017-01-07
 tags:
 image: blog/mom-memorial.jpg
+description: A letter written to my mom after visiting her grave for the first time, 17 years after her death
 ---
 
 My mom died in 1999 from breast cancer. She was 38; I was 7. I went to Korea over the holidays and met with her brothers, their wives, and her father who told me many stories about what she was like. I wrote her a letter based on my time learning about her and visiting her remains for the first time.

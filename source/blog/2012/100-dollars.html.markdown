@@ -2,6 +2,7 @@
 title: A breakdown of how I was talked out of $100
 date: 2012-11-15
 tags:
+description: An analysis of how an effective salesman at a mall kiosk sold me $100 worth of beauty care products
 ---
 
 ![Receipt of $100 of face products](blog/100-dollars.png)

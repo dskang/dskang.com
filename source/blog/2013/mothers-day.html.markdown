@@ -2,6 +2,7 @@
 title: Mother’s Day Without Mother
 date: 2013-05-12
 tags:
+description: Snapshots of losing my mom and my grandma, the women who raised me
 ---
 
 ![Grandpa and me at Grandma's grave](blog/mothers-day.jpg)

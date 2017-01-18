@@ -1,15 +1,22 @@
-.entry-item {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+.post {
+  margin-bottom: 15px;
 }
 
-.entry-item-date {
+.post-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-date {
   color: #818a91;
   font-size: 0.8em;
 }
 
-.entry-section {
+.post-description {
+  font-size: 0.8em;
+}
+
+.post-section {
   margin-bottom: 25px;
 }
 
@@ -18,15 +25,31 @@
 }
 
 @media (min-width: 544px) {
-  .entry-item {
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 5px;
+  .post {
+    margin-bottom: 10px;
   }
 
-  .entry-item-date {
+  .post-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .post-title {
+    order: 1;
+  }
+
+  .post-date {
+    order: 2;
     font-family: "Droid Sans Mono", monospace;
     font-size: 1em;
     flex-shrink: 0;
+  }
+
+  .post-description {
+    padding-right: 100px;
+  }
+
+  .recommended-posts .post-description {
+    padding-right: 0;
   }
 }
