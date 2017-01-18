@@ -2,7 +2,8 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
 @import "header";
-@import "blog";
+@import "writing";
+@import "post";
 
 .intro {
   text-align: center;
@@ -78,22 +79,4 @@ $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   .details {
     text-align: left;
   }
-}
-
-.entry-item {
-  display: flex;
-}
-
-.entry-item-date {
-  font-family: "Droid Sans Mono", monospace;
-  margin-right: 20px;
-  flex-shrink: 0;
-}
-
-.entry-section {
-  margin-bottom: 25px;
-}
-
-.recommended-posts {
-  margin-bottom: 40px;
 }

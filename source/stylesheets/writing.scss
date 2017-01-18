@@ -1,0 +1,17 @@
+.entry-item {
+  display: flex;
+}
+
+.entry-item-date {
+  font-family: "Droid Sans Mono", monospace;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.entry-section {
+  margin-bottom: 25px;
+}
+
+.recommended-posts {
+  margin-bottom: 40px;
+}
