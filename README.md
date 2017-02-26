@@ -1,3 +1,6 @@
+## New Blog Post
+`bundle exec middleman article TITLE`
+
 ## Development
 
 1. `bundle exec middleman server`
