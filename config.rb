@@ -68,6 +68,7 @@ activate :blog do |blog|
   blog.sources = "blog/{year}/{title}.html"
   blog.permalink = "{title}.html"
   blog.layout = "blog-layout"
+  blog.publish_future_dated = true
 end
 
 # Pretty URLs (Directory Indexes)
