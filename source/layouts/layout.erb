@@ -44,13 +44,23 @@
   </head>
 
   <body>
-    <div class="header">
+    <div class="site-header header">
       <a class="header-brand" href="/">Dan Kang</a>
       <nav class="header-nav">
         <%= nav_link_to "Story", "/" %>
         <%= nav_link_to "Projects", "/projects" %>
         <%= nav_link_to "Writing", "/writing" %>
       </nav>
+    </div>
+    <div class="fixed-header">
+      <div class="header">
+        <a class="header-brand" href="/">Dan Kang</a>
+        <nav class="header-nav">
+          <%= nav_link_to "Story", "/" %>
+          <%= nav_link_to "Projects", "/projects" %>
+          <%= nav_link_to "Writing", "/writing" %>
+        </nav>
+      </div>
     </div>
     <%= yield %>
   </body>
