@@ -1,5 +1,5 @@
 ---
-title: "DK's Cooking Misadventures: Vegetarian Mapo Tofu"
+title: "Cooking Misadventures: Vegetarian Mapo Tofu"
 date: 2017-02-28
 tags:
 image: blog/mapo-tofu.jpg
