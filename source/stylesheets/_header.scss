@@ -12,10 +12,10 @@
   }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   .header {
     @include clearfix;
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
   }
   .header-brand {
