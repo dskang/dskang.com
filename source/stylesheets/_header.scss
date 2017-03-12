@@ -11,6 +11,10 @@
   .header {
     padding: 10px 30px;
   }
+
+  .navbar-brand {
+    font-weight: 500;
+  }
 }
 
 @include media-breakpoint-up(sm) {
