@@ -44,11 +44,14 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   # Add 'active' class if link is to current page
-  def nav_link_to(name, url)
+  def nav_link_to(name, url, classes='')
     current = current_page.url == url || current_page.url == url + '/'
-    class_name = current ? 'active' : ''
+    if current
+      classes += ' active'
+      classes.strip!
+    end
 
-    link_to(name, url, class: class_name)
+    link_to(name, url, class: classes)
   end
 
   def full_image_url_for(path)
