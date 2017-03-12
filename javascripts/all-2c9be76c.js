@@ -1,1 +1,0 @@
-window.addEventListener("scroll",function(){var e=document.getElementsByClassName("site-header")[0],s=document.getElementsByClassName("fixed-header")[0],t=e.offsetHeight,l=document.body.scrollTop-t>0;l?s.style.display="block":s.style.display="none"});

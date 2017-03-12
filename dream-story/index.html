@@ -13,8 +13,12 @@
 
     <title>Dream</title>
 
-    <link href="/stylesheets/all-f0ae6eac.css" rel="stylesheet" />
-    <script src="/javascripts/all-2c9be76c.js"></script>
+    <link href="/stylesheets/all-5c553fec.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="/javascripts/all-d275dcdf.js"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Questrial|Droid+Sans+Mono" rel="stylesheet">
@@ -44,7 +48,7 @@
   </head>
 
   <body>
-    <div class="site-header header">
+    <div id="site-header" class="header">
       <a class="header-brand" href="/">Dan Kang</a>
       <nav class="header-nav">
         <a href="/" class="">Story</a>
@@ -52,8 +56,8 @@
         <a href="/writing" class="">Writing</a>
       </nav>
     </div>
-    <div class="fixed-header">
-      <div class="header">
+    <div id="fixed-header">
+      <div class="hidden-xs-down header">
         <a class="header-brand" href="/">Dan Kang</a>
         <nav class="header-nav">
           <a href="/" class="">Story</a>
@@ -61,6 +65,19 @@
           <a href="/writing" class="">Writing</a>
         </nav>
       </div>
+      <nav class="hidden-sm-up navbar navbar-toggleable navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">Dan Kang</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <a href="/" class="nav-item nav-link">Story</a>
+            <a href="/projects" class="nav-item nav-link">Projects</a>
+            <a href="/writing" class="nav-item nav-link">Writing</a>
+          </ul>
+        </div>
+      </nav>
     </div>
     <div class="content post">
   <div class="entry-header">
