@@ -2,9 +2,12 @@
   background-color: #eee;
   padding: 30px;
   margin-bottom: 30px;
-  img {
+  a {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+  }
+  img {
+    width: 100%;
   }
 }
