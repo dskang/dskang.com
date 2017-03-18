@@ -14,3 +14,5 @@ gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 gem "bootstrap", "~> 4.0.0.alpha5"
 
 gem "middleman-blog", "~> 4.0"
+
+gem "nokogiri", "~> 1.7"

@@ -14,6 +14,10 @@
     <% end %>
     <% if current_page.data.description %>
       <meta property="og:description" content="<%= current_page.data.description %>" />
+    <% elsif current_page.path.include? "books" %>
+      <% html_summary = current_page.summary(300) %>
+      <% text_summary = Nokogiri::HTML(html_summary).xpath("//text()").to_s %>
+      <meta property="og:description" content="<%= text_summary %>" />
     <% end %>
     <% if current_page.data.image %>
       <meta property="og:image" content="<%= full_image_url_for current_page.data.image %>" />
