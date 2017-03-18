@@ -17,20 +17,6 @@
   }
 }
 
-@include media-breakpoint-up(sm) {
-  .header {
-    @include clearfix;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  .header-brand {
-    float: left;
-  }
-  .header-nav {
-    float: right;
-  }
-}
-
 .header {
   padding: 30px;
   text-align: center;
@@ -66,5 +52,20 @@
   }
   & + a {
     margin-left: 20px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .header {
+    @include clearfix;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .header-brand {
+    float: left;
+    margin: 5px 0;
+  }
+  .header-nav {
+    float: right;
   }
 }
