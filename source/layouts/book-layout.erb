@@ -1,0 +1,12 @@
+<% wrap_layout :layout do %>
+<div class="content post">
+  <div class="entry-header">
+    <div class="book-cover">
+      <%= image_tag current_article.data.image %>
+    </div>
+    <h2><%= current_article.title %></h2>
+    <span class="entry-date"><%= current_article.date.strftime('%B %e, %Y') %></span>
+  </div>
+  <%= yield %>
+</div>
+<% end %>

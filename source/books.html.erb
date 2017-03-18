@@ -1,0 +1,18 @@
+---
+title: Dan Kang &middot; Reading
+description: hi, i'm dk. sometimes i read stuff and put my notes on the internet.
+---
+
+<div class="content">
+  <div class="intro">
+    <h1 class="title">Reading</h1>
+    <small class="text-muted">sometimes i read stuff and put my notes on the interwebs</small>
+  </div>
+  <div>
+    <% blog('books').articles.each do |article| %>
+    <div class="book-item">
+      <%= link_to image_tag(article.data.image), article %>
+    </div>
+    <% end %>
+  </div>
+</div>

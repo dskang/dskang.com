@@ -11,7 +11,7 @@ description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the inter
   <div class="recommended-posts">
     <h5>Recommended Posts</h5>
     <% data.recommended.posts.each do |url| %>
-      <% article = blog.articles.find {|a| a.url == "/#{url}/"} %>
+      <% article = blog('blog').articles.find {|a| a.url == "/#{url}/"} %>
       <div class="post-item">
         <div class="post-item-title">
           <%= link_to article.title, article %>
@@ -26,7 +26,7 @@ description: hi, i'm dk. sometimes i make stuff. sometimes i put it on the inter
   </div>
   <div class="archive">
     <h5>Archive</h5>
-    <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <% blog('blog').articles.group_by {|a| a.date.year }.each do |year, articles| %>
     <div class="post-section">
       <h5><%= year %></h5>
       <% articles.each do |article| %>

@@ -45,6 +45,15 @@ ol, ul {
   font-size: 80%;
 }
 
+.book-cover {
+  background-color: #eee;
+  padding: 30px;
+  margin-bottom: 30px;
+  img {
+    max-width: 200px;
+  }
+}
+
 @media (min-width: 544px) {
   .content {
     padding: 0 30px;
