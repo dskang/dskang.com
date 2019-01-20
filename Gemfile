@@ -11,7 +11,7 @@ gem "middleman-livereload", "~> 3.4"
 # See https://github.com/middleman-contrib/middleman-deploy/issues/122
 gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 
-gem "bootstrap", "~> 4.2"
+gem "bootstrap", "~> 4.1.0"
 
 gem "middleman-blog", "~> 4.0"
 
