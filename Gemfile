@@ -1,8 +1,8 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem "middleman", "~> 4.1"
+gem "middleman", "~> 4.3"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.4"
@@ -11,8 +11,8 @@ gem "middleman-livereload", "~> 3.4"
 # See https://github.com/middleman-contrib/middleman-deploy/issues/122
 gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 
-gem "bootstrap", "~> 4.0.0.alpha5"
+gem "bootstrap", "~> 4.2"
 
 gem "middleman-blog", "~> 4.0"
 
-gem "nokogiri", "~> 1.7"
+gem "nokogiri", "~> 1.10"
